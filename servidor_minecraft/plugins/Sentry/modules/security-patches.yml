@@ -1,0 +1,31 @@
+#     _____            __
+#    / ___/___  ____  / /________  __
+#    \__ \/ _ \/ __ \/ __/ ___/ / / /
+#   ___/ /  __/ / / / /_/ /  / /_/ /
+#  /____/\___/_/ /_/\__/_/   \__, /
+#                           /____/
+#
+# DOCUMENTATION: https://squareplugins.gitbook.io/sentry
+# DISCORD SUPPORT: https://discord.gg/7cFjDnSpEs - CHECK THE DOCUMENTATION BEFORE ASKING FOR HELP!
+#
+# GO GET SENTRY PRIME NOW: https://ko-fi.com/drawned
+# MORE INFO ABOUT SENTRY PRIME: https://squareplugins.gitbook.io/sentry/prime
+
+# Enable this module? true / false
+module-enabled: true
+
+# Prevents players with null/no address sent to join the server
+# If true, enables this submodule
+null-address-patcher:
+  enabled: true
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&cSome of your information does not appear to be valid. Please try joining in again." # Leave "" to disable
+    notify-admins: true # Default: true
+
+# Cancels any command sent by dead or offline players
+cancel-commands-when-dead: true
+
+# Removes command block minecarts. Pretty self-explanatory.
+# They can be used by anyone exploiting items and giving access to console level commands. Highly recommend leaving this option as true!
+remove-command-block-minecart: true

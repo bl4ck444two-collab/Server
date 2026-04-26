@@ -1,0 +1,32 @@
+[2026/04/25 22:49:09 INFO]:           __             _       
+[2026/04/25 22:49:09 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/04/25 22:49:09 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/04/25 22:49:09 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/04/25 22:49:09 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/04/25 22:49:09 INFO]:                   |___/            
+[2026/04/25 22:49:09 INFO]:  By: www.nickuc.com - V 2.0.16
+[2026/04/25 22:49:09 INFO]:  
+[2026/04/25 22:49:09 DEBUG]: Loading the messages_es.yml message file...
+[2026/04/25 22:49:09 DEBUG]: Messages were loaded in 123 ms (single file).
+[2026/04/25 22:49:09 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/04/25 22:49:09 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/04/25 22:49:09 DEBUG]: Settings were loaded in 246 ms.
+[2026/04/25 22:49:09 DEBUG]: Loading database...
+[2026/04/25 22:49:09 DEBUG]: Starting logger filter...
+[2026/04/25 22:49:45 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ledesmagic', `unique_id` = 3fcd51bab5d8394db9b3a8e3a80309d1,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$koOPh3h3c71wsui6NAzn2w$RdCz2Wrl0SwUD/DFFsokJImCMjHYcovin+2bKMxnWoE', `last_ip` = '127.185.6.68', `creation_date` = 2026-04-25 20:16:03.868, `last_seen` = 2026-04-25 22:49:45.048, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 16" (applied to [last_ip, last_seen, settings] columns)
+[2026/04/25 22:49:45 INFO]: The user ledesmagic has successfully logged in.
+[2026/04/25 22:49:57 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'stevencastro123', `unique_id` = 56d7a3f375a13ab7bac632262eaba414,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$vSF49K8foXXNuinoE6VAlQ$bowY3/vfi08sqqrcn1+SKrdJG0Lj5rGNjaCvPQTDcLY', `last_ip` = '127.46.153.106', `creation_date` = 2026-04-25 19:53:43.869, `last_seen` = 2026-04-25 22:49:57.331, `email` = null, `discord` = null, `settings` = null WHERE `ai` = 6" (applied to [last_ip, last_seen, settings] columns)
+[2026/04/25 22:49:57 INFO]: The user stevencastro123 has successfully logged in.
+[2026/04/25 22:50:04 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Tamal245', `unique_id` = 63f020d34fbc3894bd374e13f62ce670,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$MC8PsvymM64/Z8FzKKGGhw$SagTT3o/Wg5ogps0S4IdNZl5Sq5UR+HMeBqebr1M/Pk', `last_ip` = '127.125.177.63', `creation_date` = 2026-04-25 20:14:13.216, `last_seen` = 2026-04-25 22:50:04.331, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 15" (applied to [last_ip, last_seen, settings] columns)
+[2026/04/25 22:50:04 INFO]: The user Tamal245 has successfully logged in.
+[2026/04/25 22:50:11 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ImNottVanxxz7', `unique_id` = 4b09082df4103f6ebd67f8d7d5dcbb05,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$Sy+0ZBsc8/LRgXgII1avsA$S4yaM0bh3mMrT2wRbOCEaudeVhaOSPcNRj6naBOa8HM', `last_ip` = '127.88.27.153', `creation_date` = 2026-04-25 20:23:14.597, `last_seen` = 2026-04-25 22:50:11.184, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 18" (applied to [last_ip, last_seen, settings] columns)
+[2026/04/25 22:50:11 INFO]: The user ImNottVanxxz7 has successfully logged in.
+[2026/04/25 22:50:21 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Pilaw', `unique_id` = 5028f6a42ce53d949a4812a28e950414,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$UTbq9cJ9ZeJ3tBQe+8xx9Q$lka3aT1COcNYFHjS+Q/wWbROSoHAxSJMrIVKpkE5f78', `last_ip` = '127.176.211.68', `creation_date` = 2026-04-25 20:19:01.037, `last_seen` = 2026-04-25 22:50:21.142, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 17" (applied to [last_ip, last_seen, settings] columns)
+[2026/04/25 22:50:21 INFO]: The user Pilaw has successfully logged in.
+[2026/04/25 22:51:21 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'urielargentino', `unique_id` = c42aa5334a6339c7b61eae455217be72,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$BFmMR6LCbzFnajx0p+Un1g$E/2ra9T+3aJSw7fozso1raeXfZGHgPI18ogGx+mEhnU', `last_ip` = '127.132.2.213', `creation_date` = 2026-04-25 22:32:40.968, `last_seen` = 2026-04-25 22:51:21.005, `email` = null, `discord` = null, `settings` = null WHERE `ai` = 49" (applied to [last_ip, last_seen, settings] columns)
+[2026/04/25 22:51:21 INFO]: The user urielargentino has successfully logged in.
+[2026/04/25 22:53:02 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'AL5PT', `unique_id` = 3678aaa4193c3005aadb5e617b75fe27,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$TvBTpVxja7gM011KbG/ueA$TN+ZmKCtcGHJNOLED10nVSPaq1oCsqCWx1OELIodFrU', `last_ip` = '127.56.196.35', `creation_date` = 2026-04-23 23:41:34.189, `last_seen` = 2026-04-25 22:53:02.789, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/04/25 22:53:02 INFO]: The user AL5PT has successfully logged in.
+[2026/04/25 22:55:27 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'rodri_2', `unique_id` = a1282c460137325c99e7b3de392805f8,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$8GOudFLL8fhtIYk/6AivyA$vjTpJV7cClqlDwXNTu+MkIJVNxpc1ag0TQ6twFlMswk', `last_ip` = '127.61.194.96', `creation_date` = 2026-04-25 22:24:24.933, `last_seen` = 2026-04-25 22:55:27.535, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 48" (applied to [last_ip, last_seen, settings] columns)
+[2026/04/25 22:55:27 INFO]: The user rodri_2 has successfully logged in.
+[2026/04/25 22:55:53 INFO]: Successful plugin core shutdown (took 0.00s)

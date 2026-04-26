@@ -1,0 +1,90 @@
+#     _____            __
+#    / ___/___  ____  / /________  __
+#    \__ \/ _ \/ __ \/ __/ ___/ / / /
+#   ___/ /  __/ / / / /_/ /  / /_/ /
+#  /____/\___/_/ /_/\__/_/   \__, /
+#                           /____/
+#
+# DOCUMENTATION: https://squareplugins.gitbook.io/sentry
+# DISCORD SUPPORT: https://discord.gg/7cFjDnSpEs - CHECK THE DOCUMENTATION BEFORE ASKING FOR HELP!
+#
+# GO GET SENTRY PRIME NOW: https://ko-fi.com/drawned
+# MORE INFO ABOUT SENTRY PRIME: https://squareplugins.gitbook.io/sentry/prime
+
+# Enable this module? true / false
+module-enabled: true
+
+# If true, players with the permission sentry.bypass.tab-complete-blocker will not be tab restricted by Sentry
+permission-bypass: true
+
+# Restrict Shown Commands
+# Requires at least MC 1.13
+# Here you can set up custom groups and permissions, so you can control which commands are shown to them when they press /
+# Keep in mind that restricting shown commands is not blocking players from using it, check the module command-blocker if you need that feature.
+restrict-shown-commands:
+  # If true, enables the command list restriction.
+  enabled: false
+
+  # Here you can set a custom permission for any player that is part of EVERY group listed.
+  see-all-permission: "sentry.tab-complete.all"
+
+  # Changes the mode to whitelist or blacklist. If you set it to blacklist, it will remove these commands to the specified groups.
+  # If you set it to whitelist, only the listed commands are shown to each group.
+  mode: "whitelist" # whitelist or blacklist
+
+  # Refresh and resends the player commands - Useful when you are using something like per-world permissions. - Performance may be slightly affected!
+  refresh-every:
+    # Refreshes everytime a player changes world.
+    world-change: true
+    # Refreshes the commands of all online players every 1 minute. Performance may be slightly affected!
+    minute: false
+
+  # Here you can create and modify groups.
+  groups:
+    default:
+      permission: "" # If empty, every player will be part of this group.
+      commands:
+        - "home"
+        - "sethome"
+        - "spawn"
+
+    vip:
+      permission: "sentry.group.vip"
+      commands:
+        - "vip"
+        - "vipchat"
+
+    mod:
+      permission: "sentry.group.mod"
+      commands:
+        - "ban"
+        - "banip"
+        - "help"
+        - "about"
+
+    mycustomgroup:
+      permission: "sentry.group.mycustomgroup"
+      commands:
+        - "mycustomcommand"
+
+    admin:
+      permission: "sentry.group.admin"
+      commands:
+        - "staffchat"
+        - "version"
+        - "help"
+        - "version"
+        - "?"
+        - "sentry"
+        - "about"
+
+# If true, will hide all the tab-completions results for the listed commands
+# For example, in the command "/about", the server automatically tabcompletes it with all the Plugins listed on the server, Sentry blocks it.
+hide-subcommands-tabcompletion:
+  enabled: true
+  commands:
+    - "ver"
+    - "version"
+    - "about"
+    - "help"
+    - "?"

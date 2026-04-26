@@ -1,0 +1,34 @@
+#     _____            __
+#    / ___/___  ____  / /________  __
+#    \__ \/ _ \/ __ \/ __/ ___/ / / /
+#   ___/ /  __/ / / / /_/ /  / /_/ /
+#  /____/\___/_/ /_/\__/_/   \__, /
+#                           /____/
+#
+# DOCUMENTATION: https://squareplugins.gitbook.io/sentry
+# DISCORD SUPPORT: https://discord.gg/7cFjDnSpEs - CHECK THE DOCUMENTATION BEFORE ASKING FOR HELP!
+#
+# GO GET SENTRY PRIME NOW: https://ko-fi.com/drawned
+# MORE INFO ABOUT SENTRY PRIME: https://squareplugins.gitbook.io/sentry/prime
+
+# Enable this module? true / false
+module-enabled: true
+
+# Overrides already registered commands from other plugins
+# You can use this to remove some dangerous public command or any other specific command.
+command-overrider:
+  enabled: true
+  commands:
+    # In the example below,
+    # If you DO have the permission-bypass permission, you can use the original command and Sentry will not handle the "pl" command.
+    # If you DO NOT have the permission-bypass permission, and you tried to run /pl, Sentry will send you the error-message.
+    pl:
+      error-message: "&cHey! Tu no estas autorizado para usar este comando."
+      permission-bypass: "sentry.bypassoverride.some-command"
+      aliases: [plugins]
+
+    # In this example, there's some command in some plugin that "destroys the entire server", so Sentry will handle the command instead
+    # of the other plugin, and no one can bypass this.
+    destroyeverything:
+      error-message: "&cHey! Tu no estas autorizado para usar este comando."
+      aliases: [anotherdestroyeverythingcommand]

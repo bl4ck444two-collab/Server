@@ -1,0 +1,16 @@
+plugin-version: 1.4.0
+config-version:
+  hack-blocker: 4
+  anti-bot: 0
+  anti-vpn: 0
+  client-blocker: 2
+  command-blocker: 0
+  ip-whitelist: 0
+  item-control: 2
+  tab-complete-blocker: 1
+  op-protection: 0
+  security-patches: 1
+  integrations: 0
+players:
+  3678aaa4-193c-3005-aadb-5e617b75fe27:
+    notifications: true

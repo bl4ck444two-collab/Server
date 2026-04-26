@@ -1,0 +1,70 @@
+#     _____            __
+#    / ___/___  ____  / /________  __
+#    \__ \/ _ \/ __ \/ __/ ___/ / / /
+#   ___/ /  __/ / / / /_/ /  / /_/ /
+#  /____/\___/_/ /_/\__/_/   \__, /
+#                           /____/
+#
+# DOCUMENTATION: https://squareplugins.gitbook.io/sentry
+# DISCORD SUPPORT: https://discord.gg/7cFjDnSpEs - CHECK THE DOCUMENTATION BEFORE ASKING FOR HELP!
+#
+# GO GET SENTRY PRIME NOW: https://ko-fi.com/drawned
+# MORE INFO ABOUT SENTRY PRIME: https://squareplugins.gitbook.io/sentry/prime
+
+# Enable this module? true / false
+module-enabled: true
+
+# If true, players with sentry.bypass.item-control will not be checked by Sentry.
+permission-bypass: true
+
+# Item whitelist, items listed here are not going to be checked by Sentry.
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+whitelist:
+  - BARRIER
+
+# If "enabled: true", will check every potion if it is NOT a vanilla one.
+check-potions:
+  enabled: true
+
+  # Check thrown potions by dispensers?
+  detect-dispensers-aswell: true
+
+  notify-admins: true
+
+  on-detect:
+    remove: false # If true, will force delete the item from the person hand.
+    item-to-replace: item # "item" to use base item type. Requires remove: false
+    message: true # If true, sends a message to the player.
+
+# If "enabled: true", will check every enchantment on items to detect
+# if anyone has an unsafe and not vanilla enchant.
+check-enchantments:
+  enabled: true
+
+  notify-admins: true
+
+  on-detect:
+    remove: false # If true, will force delete the item from the person hand.
+    item-to-replace: item # "item" to use base item type. Requires remove: false
+    message: true # If true, sends a message to the player.
+
+# If "enabled: true", will check Item Attributes for every item.
+# You can configure if it should detect all items, or only if the
+# attribute modifier amount exceeds a specific limit.
+# Requires at least Minecraft 1.13.2+
+check-attributes:
+  enabled: true
+
+  # Should Sentry trigger on all items with modified attributes?
+  detect-every-attribute-modified-item: true
+
+  # Requires the option above to be false.
+  # Here you can set the attribute modifier power limit of item attributes,
+  attribute-modifier-amount-threshold: 5
+
+  notify-admins: true
+
+  on-detect:
+    remove: false # If true, will force delete the item from the person hand.
+    item-to-replace: item # "item" to use base item type. Requires remove: false
+    message: true # If true, sends a message to the player.

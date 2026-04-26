@@ -1,0 +1,27 @@
+#     _____            __
+#    / ___/___  ____  / /________  __
+#    \__ \/ _ \/ __ \/ __/ ___/ / / /
+#   ___/ /  __/ / / / /_/ /  / /_/ /
+#  /____/\___/_/ /_/\__/_/   \__, /
+#                           /____/
+#
+# DOCUMENTATION: https://squareplugins.gitbook.io/sentry
+# DISCORD SUPPORT: https://discord.gg/7cFjDnSpEs - CHECK THE DOCUMENTATION BEFORE ASKING FOR HELP!
+#
+# GO GET SENTRY PRIME NOW: https://ko-fi.com/drawned
+# MORE INFO ABOUT SENTRY PRIME: https://squareplugins.gitbook.io/sentry/prime
+
+# Discord webhook integration
+# Sends a message to the specified webhook evertime Sentry catches something.
+# In other words, everytime the plugin notifies the admins, will send the same notification to Discord aswell.
+discord:
+  # If true, enables the discord webhook integration
+  enabled: false
+
+  # Sends a webhook notification when the plugin starts. Will ignore the "settings content" and send just the webhook. Default: true
+  notify-on-enable: true
+
+  # Webhook Settings, here you can modify the values, remember to copypaste the webhook URL here when you create it on your discord channel!
+  settings:
+    webhook-url: "" # Set the webhook URL here
+    content: "@everyone" # Here you can set any content to be sent alongside the embed, useful when you want to mention someone or some role.

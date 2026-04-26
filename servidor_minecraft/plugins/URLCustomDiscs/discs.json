@@ -1,0 +1,52 @@
+{
+    "lacancionmastristedelmundo": {
+        "customModelData": 3772432,
+        "displayName": "LaCancionMasTristeDelMundo",
+        "uuid": "12399010-7145-4160-a728-5f927b95eb34"
+    },
+    "nmqc": {
+        "customModelData": 6200480,
+        "displayName": "nmqc",
+        "uuid": "07de9caa-246b-4cc6-9a35-09ff43d0ce8f"
+    },
+    "lajuampa": {
+        "customModelData": 60336,
+        "displayName": "LaJuampa",
+        "uuid": "7c80ebb8-c874-4639-b147-a36d9322899d"
+    },
+    "a-rojo-vivo": {
+        "customModelData": 6319616,
+        "displayName": "a-rojo-vivo",
+        "uuid": "50e06e03-6b17-40a6-a199-acecd3f5861f"
+    },
+    "disco": {
+        "customModelData": 5080448,
+        "displayName": "Disco",
+        "uuid": "8d4d8589-6e01-4ab0-8a9f-bb709769083b"
+    },
+    "ryancastro": {
+        "customModelData": 4774064,
+        "displayName": "RyanCastro",
+        "uuid": "0248d8bd-5f50-4c84-8b46-3fde534e0373"
+    },
+    "nene_malo": {
+        "customModelData": 1602384,
+        "displayName": "Nene_Malo",
+        "uuid": "3118735b-a2a8-4e6f-a951-eb6048c0ffd4"
+    },
+    "olimpo": {
+        "customModelData": 4743600,
+        "displayName": "Olimpo",
+        "uuid": "ebc861b8-c685-4e90-9cf8-edfaf6ff4f79"
+    },
+    "nomequierocasar": {
+        "customModelData": 3653904,
+        "displayName": "Nomequierocasar",
+        "uuid": "91b7c115-3ec4-4656-8d28-758f8d4b663f"
+    },
+    "tutankamon": {
+        "customModelData": 2911360,
+        "displayName": "Tutankamon",
+        "uuid": "8c2c6c8c-4619-4612-bac2-742202f4230d"
+    }
+}

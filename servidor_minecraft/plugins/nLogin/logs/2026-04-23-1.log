@@ -1,0 +1,55 @@
+[2026/04/23 23:34:50 INFO]:           __             _       
+[2026/04/23 23:34:50 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/04/23 23:34:50 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/04/23 23:34:50 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/04/23 23:34:50 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/04/23 23:34:50 INFO]:                   |___/            
+[2026/04/23 23:34:50 INFO]:  By: www.nickuc.com - V 2.0.16
+[2026/04/23 23:34:50 INFO]:  
+[2026/04/23 23:34:50 DEBUG]: The config.yml file was created successfully.
+[2026/04/23 23:34:51 DEBUG]: Loading the messages_en.yml message file...
+[2026/04/23 23:34:51 DEBUG]: Messages were loaded in 127 ms (single file).
+[2026/04/23 23:34:51 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/04/23 23:34:51 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/04/23 23:34:51 DEBUG]: Settings were loaded in 256 ms.
+[2026/04/23 23:34:51 DEBUG]: Loading database...
+[2026/04/23 23:34:51 INFO]: Generating RSA keypair... (this may take a while)
+[2026/04/23 23:34:51 INFO]: The RSA key pair was successfully generated. Took 0.47s
+[2026/04/23 23:34:51 DEBUG]: Starting logger filter...
+[2026/04/23 23:34:52 INFO]: Starting the OpeNLogin conversion...
+[2026/04/23 23:34:52 WARN]: Initializing the OpeNLogin conversion
+[2026/04/23 23:34:52 WARN]: Please do not shut down your server.
+[2026/04/23 23:34:52 INFO]: OpeNLogin data has been successfully converted.
+[2026/04/23 23:34:52 INFO]: No users have been converted ~ 0.03s
+[2026/04/23 23:35:04 INFO]: 
+[2026/04/23 23:35:04 INFO]:  Thank you so much for choosing nLogin! :)
+[2026/04/23 23:35:04 INFO]: 
+[2026/04/23 23:35:04 INFO]:  For your safety, please read the message below:
+[2026/04/23 23:35:04 INFO]:   Never download nLogin from unknown sources.
+[2026/04/23 23:35:04 INFO]:   A modified version may contain malicious software.
+[2026/04/23 23:35:04 INFO]: 
+[2026/04/23 23:35:04 INFO]:  Trusted sources:
+[2026/04/23 23:35:04 INFO]:   Website: nickuc.com
+[2026/04/23 23:35:04 INFO]:   GitHub: github.com/nickuc-com
+[2026/04/23 23:35:04 INFO]:   OpeNLogin installer (from Spigot or GitHub)
+[2026/04/23 23:35:04 INFO]: 
+[2026/04/23 23:35:04 INFO]:  Official support:
+[2026/04/23 23:35:04 INFO]:   Documentation: docs.nickuc.com/nlogin/
+[2026/04/23 23:35:04 INFO]:   Discord: nickuc.com/discord
+[2026/04/23 23:35:04 INFO]:   Email: support@nickuc.com
+[2026/04/23 23:35:04 INFO]: 
+[2026/04/23 23:40:13 DEBUG]: Loading the messages_es.yml message file...
+[2026/04/23 23:40:20 DEBUG]: The config.yml file was created successfully.
+[2026/04/23 23:40:20 DEBUG]: Loading the messages_es.yml message file...
+[2026/04/23 23:40:20 DEBUG]: Messages were loaded in 15 ms (single file).
+[2026/04/23 23:40:20 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/04/23 23:40:20 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/04/23 23:40:20 DEBUG]: Settings were loaded in 29 ms.
+[2026/04/23 23:41:23 DEBUG]: Loading the messages_es.yml message file...
+[2026/04/23 23:41:23 DEBUG]: Messages were loaded in 13 ms (single file).
+[2026/04/23 23:41:23 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/04/23 23:41:23 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/04/23 23:41:23 DEBUG]: Settings were loaded in 25 ms.
+[2026/04/23 23:41:34 DEBUG]: [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('AL5PT', 3678aaa4193c3005aadb5e617b75fe27, null, null, '$argon2id$v=19$m=32768,t=5,p=1$TvBTpVxja7gM011KbG/ueA$TN+ZmKCtcGHJNOLED10nVSPaq1oCsqCWx1OELIodFrU', '127.202.16.209', '2026-04-23 23:41:34.189', '2026-04-23 23:41:34.189', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/04/23 23:41:34 INFO]: The user AL5PT has successfully registered.
+[2026/04/24 00:16:32 INFO]: Successful plugin core shutdown (took 0.00s)

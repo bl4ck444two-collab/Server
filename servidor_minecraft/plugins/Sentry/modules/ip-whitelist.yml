@@ -1,0 +1,35 @@
+#     _____            __
+#    / ___/___  ____  / /________  __
+#    \__ \/ _ \/ __ \/ __/ ___/ / / /
+#   ___/ /  __/ / / / /_/ /  / /_/ /
+#  /____/\___/_/ /_/\__/_/   \__, /
+#                           /____/
+#
+# DOCUMENTATION: https://squareplugins.gitbook.io/sentry
+# DISCORD SUPPORT: https://discord.gg/7cFjDnSpEs - CHECK THE DOCUMENTATION BEFORE ASKING FOR HELP!
+#
+# GO GET SENTRY PRIME NOW: https://ko-fi.com/drawned
+# MORE INFO ABOUT SENTRY PRIME: https://squareplugins.gitbook.io/sentry/prime
+
+# Enable this module? true / false
+module-enabled: true
+
+blacklist:
+  # If true, enables the blacklist and listed IPs will not be able to join the server.
+  enabled: true
+  # If true, blacklisted IPs will not be allowed to join AND even ping the server (view the MOTD).
+  # Requires PaperMC (or any fork of Paper)!
+  brutal-blacklist: true
+  # Here you can list whenever IPs you want blocked from the server
+  IPs:
+    - '45.444.43.42'
+
+whitelist:
+  # If true, only the listed IPs can join the server.
+  enabled: false
+  # If true, NOT whitelisted IPs will not be allowed to join AND even ping the server (view the MOTD).
+  # Requires PaperMC (or any fork of Paper)!
+  brutal-whitelist: false
+  # Here you can restrict to only the listed IPs can join the server.
+  IPs:
+    - '45.444.43.44'

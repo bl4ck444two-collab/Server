@@ -1,0 +1,138 @@
+#     _____            __
+#    / ___/___  ____  / /________  __
+#    \__ \/ _ \/ __ \/ __/ ___/ / / /
+#   ___/ /  __/ / / / /_/ /  / /_/ /
+#  /____/\___/_/ /_/\__/_/   \__, /
+#                           /____/
+#
+# DOCUMENTATION: https://squareplugins.gitbook.io/sentry
+# DISCORD SUPPORT: https://discord.gg/7cFjDnSpEs - CHECK THE DOCUMENTATION BEFORE ASKING FOR HELP!
+#
+# GO GET SENTRY PRIME NOW: https://ko-fi.com/drawned
+# MORE INFO ABOUT SENTRY PRIME: https://squareplugins.gitbook.io/sentry/prime
+
+# Enable this module? true / false
+module-enabled: false
+
+# If true, players with sentry.bypass.client-blocker will not be checked by Sentry.
+permission-bypass: true
+
+# Set this to true if you are having issues with false detection. This usually happens when using BungeeCord or other proxies.
+old-method-only: false
+
+# Heres a list of all the current clients and mods that Sentry can block.
+# Keep in mind that you can customize each client entry, you can remove the entire on-detect if you want, or just remove the kick part, or just the execute command,
+# or the notify-admins, so Sentry will detect players using these clients, but will not do anything.
+# This can be useful if you just want to have the "/sentry player" command.
+
+# Change "block: false" to "block: true" if you want to block a specific client from joining the server.
+
+# AND... DO NOT FORGET TO ENABLE THE MODULE AFTER BLOCKING ANY CLIENT/MOD!
+vanilla:
+  block: false
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use a vanilla client on this server!"
+    notify-admins: true # Default: true
+
+journeymap:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&c&cHey! Tu no estas autorizado para usar JourneyMap en este servidor!
+
+badlion:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use BadLion on this server!"
+
+lunarclient:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use Lunar Client on this server!"
+
+labymod:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use LabyMod on this server!"
+
+forge:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use Forge on this server!"
+
+neoforge:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use NeoForge on this server!"
+
+quilt:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use Quilt on this server!"
+
+# On newer Minecraft versions, Fabric detection is
+# only possible by using a PaperMC (or any other fork) server.
+fabric:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use Fabric on this server!"
+
+5zig:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use 5zig on this server!"
+
+modernfix:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use Modernfix on this server!"
+
+curios:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use Curios on this server!"
+
+appleskin:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use AppleSkin on this server!"
+
+world_downloader:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use World Downloader on this server!"
+
+bettersprintingmod:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use Better Sprinting Mod on this server!"
+
+rift:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use Rift on this server!"
+
+configuredmod:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use Configured on this server!"
+
+caelus:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use Caelus on this server!"
+
+fastworkbenchmod:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use Fast Workbench on this server!"
+
+placebo:
+  block: true
+  on-detect:
+    kick: "&5&lSentry\n&cYou are not allowed to use Placebo on this server!"
+
+#
+# Want more client blocking options like Xaero MiniMap, Distant Horizons, Voice Chat, & more?
+# Consider getting Sentry Prime for only $3/monthly! - https://squareplugins.gitbook.io/sentry/prime
+#

@@ -1,0 +1,56 @@
+#     _____            __
+#    / ___/___  ____  / /________  __
+#    \__ \/ _ \/ __ \/ __/ ___/ / / /
+#   ___/ /  __/ / / / /_/ /  / /_/ /
+#  /____/\___/_/ /_/\__/_/   \__, /
+#                           /____/
+#
+# DOCUMENTATION: https://squareplugins.gitbook.io/sentry
+# DISCORD SUPPORT: https://discord.gg/7cFjDnSpEs - CHECK THE DOCUMENTATION BEFORE ASKING FOR HELP!
+#
+# GO GET SENTRY PRIME NOW: https://ko-fi.com/drawned
+# MORE INFO ABOUT SENTRY PRIME: https://squareplugins.gitbook.io/sentry/prime
+
+# Enable this module? true / false
+module-enabled: true
+
+# Main section to configure this module
+limits:
+  kick-message: "&5&lSentry\n&cPlease wait before trying to join this server again!"
+  # Max connections limit per second
+  max-second:
+    # Limits the connections per second by the same IP, meaning only one account can join on the same second with the same IP.
+    same-ip: 1
+    # Limits the connections by general, meaning only 5 accounts can join on the same second with different IPs.
+    # Attackers can use custom proxies/VPNs to mask their real IPs.
+    # 4 is a good start for 95% of servers, if your server regularly peaks 3000-5000+ players, you may change this to a higher value.
+    other-ip: 4
+
+# Main section to change how the module should behave when detecting attacks.
+# This is fully configurable.
+risk-modes:
+  low-risk:
+    connections: 2
+
+  medium-risk:
+    connections: 3
+    on-trigger:
+      # Warns server admins (players with 'sentry.admin-notifications' permission)
+      # that this risk mode got triggered.
+      warning-message: true
+
+  high-risk:
+    connections: 4
+    on-trigger:
+      # Warns server admins (players with 'sentry.admin-notifications' permission)
+      # that this risk mode got triggered.
+      warning-message: true
+
+  under-attack:
+    connections: 6
+    require-attention: true
+    on-trigger:
+      warning-message: false
+      # Using alert message only for this risk mode, when the server is under attack,
+      # alert-message highlights more than the warning-message.
+      alert-message: true

@@ -1,0 +1,38 @@
+#     _____            __
+#    / ___/___  ____  / /________  __
+#    \__ \/ _ \/ __ \/ __/ ___/ / / /
+#   ___/ /  __/ / / / /_/ /  / /_/ /
+#  /____/\___/_/ /_/\__/_/   \__, /
+#                           /____/
+#
+# DOCUMENTATION: https://squareplugins.gitbook.io/sentry
+# DISCORD SUPPORT: https://discord.gg/7cFjDnSpEs - CHECK THE DOCUMENTATION BEFORE ASKING FOR HELP!
+#
+# GO GET SENTRY PRIME NOW: https://ko-fi.com/drawned
+# MORE INFO ABOUT SENTRY PRIME: https://squareplugins.gitbook.io/sentry/prime
+debug: false
+
+# First, thanks for using the plugin!
+# Keep in mind that the entire plugin is MODULAR,
+# and this means, you can turn on entire modules, submodules, modify values and actions, add your own things and more.
+#
+# If you need help, there's the online Documentation and the Discord support server.
+# Also, each module contains some comments guiding you on how to configure each thing.
+
+# Lockdown
+# Here you can manually enable Lockdown, make sure to restart the server after changing.
+# It is recomended to use the command '/lockdown' instead of manually changing values here.
+lockdown:
+  enabled: false
+  reason: Server is in lockdown mode, please wait.
+#    ███████ ███████ ███    ██ ████████ ██████  ██    ██     ██████  ██████  ██ ███    ███ ███████
+#    ██      ██      ████   ██    ██    ██   ██  ██  ██      ██   ██ ██   ██ ██ ████  ████ ██
+#    ███████ █████   ██ ██  ██    ██    ██████    ████       ██████  ██████  ██ ██ ████ ██ █████
+#         ██ ██      ██  ██ ██    ██    ██   ██    ██        ██      ██   ██ ██ ██  ██  ██ ██
+#    ███████ ███████ ██   ████    ██    ██   ██    ██        ██      ██   ██ ██ ██      ██ ███████
+# Unlock the full potential of Sentry by getting Sentry Prime.The Premium FULL version of your beloved plugin, Sentry.
+# More info at https://squareplugins.gitbook.io/sentry/prime
+prime:
+  enabled: true # Set this to false in order to force the plugin to not load Sentry Prime. (no clue why would you need this tbh)
+  prime-colors: true # If true, changes the plugin color from purple to gold.
+  license-key: ''

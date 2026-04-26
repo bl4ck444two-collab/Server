@@ -1,0 +1,119 @@
+#     _____            __
+#    / ___/___  ____  / /________  __
+#    \__ \/ _ \/ __ \/ __/ ___/ / / /
+#   ___/ /  __/ / / / /_/ /  / /_/ /
+#  /____/\___/_/ /_/\__/_/   \__, /
+#                           /____/
+#
+# DOCUMENTATION: https://squareplugins.gitbook.io/sentry
+# DISCORD SUPPORT: https://discord.gg/7cFjDnSpEs - CHECK THE DOCUMENTATION BEFORE ASKING FOR HELP!
+#
+# GO GET SENTRY PRIME NOW: https://ko-fi.com/drawned
+# MORE INFO ABOUT SENTRY PRIME: https://squareplugins.gitbook.io/sentry/prime
+
+# Enable this module? true / false
+# THIS MODULE REQUIRES SENTRY PRIME!
+# THIS MODULE REQUIRES YOUR SERVER TO BE RUNNNG AT LEAST MC 1.16.5+ AND PAPERMC! (or other forks)
+module-enabled: true
+
+# If true, players with sentry.bypass.hack-blocker will not be checked by Sentry.
+permission-bypass: true
+
+# Should the plugin re-check players again after they change worlds?
+check-world-change: false
+
+freecam:
+  block: true
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use Freecam on this server!"
+    notify-admins: true # Default: true
+
+# Wurst already patched it's newer versions, so unfortunately they are not possible to be detected by Sentry.
+# Anyway, older versions of Wurst still are detectable and Sentry can block it.
+wurst:
+  block: true
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use Wurst Client on this server!"
+    notify-admins: true # Default: true
+
+# Same as Wurst, Liquidbounce already patched newer versions,
+# Anyway, older versions can still be detected by Sentry.
+liquidbounce:
+  block: true
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use Liquidbounce on this server!"
+    notify-admins: true # Default: true
+
+meteorclient:
+  block: true
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use Meteor Client on this server!"
+    notify-admins: true # Default: true
+
+autoclicker-mod:
+  block: true
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use AutoClicker Mod on this server!"
+    notify-admins: true # Default: true
+
+autoclicker-fabric-mod:
+  block: true
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use AutoClicker-Fabric Mod on this server!"
+    notify-admins: true # Default: true
+
+fdp-client:
+  block: true
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use FDP Client on this server!"
+    notify-admins: true # Default: true
+
+advanced-xray-mod:
+  block: true
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use X-Ray on this server!"
+    notify-admins: true # Default: true
+
+xray-mod:
+  block: true
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use X-Ray on this server!"
+    notify-admins: true # Default: true
+
+freecam-kapiteon:
+  block: true
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use Freecam on this server!"
+    notify-admins: true # Default: true
+
+freecam-zergatul:
+  block: true
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use Freecam on this server!"
+    notify-admins: true # Default: true
+
+worldtools-mod:
+  block: true
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use WorldTools on this server!"
+    notify-admins: true # Default: true
+
+iris-shaders:
+  # By setting this to false, Iris will be detected but the 'on-detect' actions will not be triggered.
+  block: false
+  on-detect:
+    execute-command: "" # Leave "" to disable
+    kick: "&5&lSentry\n&cYou are not allowed to use Iris Shaders on this server!"
+    notify-admins: true # Default: true

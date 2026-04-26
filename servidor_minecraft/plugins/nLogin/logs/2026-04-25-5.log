@@ -1,0 +1,23 @@
+[2026/04/25 19:39:37 INFO]:           __             _       
+[2026/04/25 19:39:37 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/04/25 19:39:37 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/04/25 19:39:37 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/04/25 19:39:37 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/04/25 19:39:37 INFO]:                   |___/            
+[2026/04/25 19:39:37 INFO]:  By: www.nickuc.com - V 2.0.16
+[2026/04/25 19:39:37 INFO]:  
+[2026/04/25 19:39:37 DEBUG]: Loading the messages_es.yml message file...
+[2026/04/25 19:39:37 DEBUG]: Messages were loaded in 109 ms (single file).
+[2026/04/25 19:39:37 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/04/25 19:39:37 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/04/25 19:39:37 DEBUG]: Settings were loaded in 209 ms.
+[2026/04/25 19:39:38 DEBUG]: Loading database...
+[2026/04/25 19:39:38 DEBUG]: Starting logger filter...
+[2026/04/25 19:40:07 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'AL5PT', `unique_id` = 3678aaa4193c3005aadb5e617b75fe27,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$TvBTpVxja7gM011KbG/ueA$TN+ZmKCtcGHJNOLED10nVSPaq1oCsqCWx1OELIodFrU', `last_ip` = '127.56.196.35', `creation_date` = 2026-04-23 23:41:34.189, `last_seen` = 2026-04-25 19:40:07.422, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/04/25 19:40:07 INFO]: The user AL5PT has successfully logged in.
+[2026/04/25 19:46:54 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'AL5PT', `unique_id` = 3678aaa4193c3005aadb5e617b75fe27,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$TvBTpVxja7gM011KbG/ueA$TN+ZmKCtcGHJNOLED10nVSPaq1oCsqCWx1OELIodFrU', `last_ip` = '127.56.196.35', `creation_date` = 2026-04-23 23:41:34.189, `last_seen` = 2026-04-25 19:46:54.728, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/04/25 19:47:55 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'AL5PT', `unique_id` = 3678aaa4193c3005aadb5e617b75fe27,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$TvBTpVxja7gM011KbG/ueA$TN+ZmKCtcGHJNOLED10nVSPaq1oCsqCWx1OELIodFrU', `last_ip` = '127.56.196.35', `creation_date` = 2026-04-23 23:41:34.189, `last_seen` = 2026-04-25 19:47:55.763, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/04/25 19:47:55 INFO]: The user AL5PT has successfully logged in.
+[2026/04/25 19:49:16 DEBUG]: [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('Jssly', d8868138cbb83e6ba5427d4f83b19935, null, null, '$argon2id$v=19$m=32768,t=5,p=1$DB7ctTxEcNYtCRDphHslyQ$yZJPYAXChI4tE1y8dPbkZyINfkpndenyQ3MRvXyd5eY', '127.254.188.77', '2026-04-25 19:49:16.041', '2026-04-25 19:49:16.041', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/04/25 19:49:16 INFO]: The user Jssly has successfully registered.
+[2026/04/25 19:51:32 INFO]: Successful plugin core shutdown (took 0.00s)

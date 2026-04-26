@@ -1,0 +1,16 @@
+[2026/04/26 19:34:10 INFO]:           __             _       
+[2026/04/26 19:34:10 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/04/26 19:34:10 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/04/26 19:34:10 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/04/26 19:34:10 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/04/26 19:34:10 INFO]:                   |___/            
+[2026/04/26 19:34:10 INFO]:  By: www.nickuc.com - V 2.0.16
+[2026/04/26 19:34:10 INFO]:  
+[2026/04/26 19:34:10 DEBUG]: Loading the messages_es.yml message file...
+[2026/04/26 19:34:10 DEBUG]: Messages were loaded in 94 ms (single file).
+[2026/04/26 19:34:10 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/04/26 19:34:10 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/04/26 19:34:10 DEBUG]: Settings were loaded in 168 ms.
+[2026/04/26 19:34:10 DEBUG]: Loading database...
+[2026/04/26 19:34:11 DEBUG]: Starting logger filter...
+[2026/04/26 19:37:12 INFO]: Successful plugin core shutdown (took 0.00s)

@@ -1,0 +1,1511 @@
+[19:57:18] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1044-azure (amd64)
+[19:57:18] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[19:57:18] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:57:19] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlaceholderAPI-2.12.2 (1).jar'...
+[19:57:20] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlaceholderAPI-2.12.2 (1).jar' in 1035ms.
+[19:57:21] [ServerMain/INFO]: [PluginInitializerManager] Initialized 23 plugins
+[19:57:21] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+ - CustomDiscs (2.5.2), HuskHomes (4.10)
+[19:57:21] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (21):
+ - AxInventoryRestore (3.12.1), CommandAPI (11.2.0), DatapackLoader (1.4.1), LuckPerms (5.5.42), OpeNLogin (1.6.7), PatPatPlugin (1.2.5+0268419), PlaceholderAPI (2.12.2), ProtocolLib (5.4.0), PterodactylAntiCrash (1.0), Sentry (1.4.0), SkinsRestorer (15.12.0), TAB (6.0.2), URLCustomDiscs (2.7.2), ViaVersion (5.9.0), WorldEdit (7.3.10-beta-01+cb9fd58), WorldGuard (7.0.12+829a4a4), nAntiBot (2.0.6), nLogin (2.0.16), nonchat (1.5.9), voicechat (2.6.16), worldedit-selection-viewer (1.5)
+[19:57:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:57:27] [ServerMain/INFO]: Loaded 1290 recipes
+[19:57:28] [ServerMain/INFO]: Loaded 1399 advancements
+[19:57:28] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[19:57:28] [Server thread/INFO]: Loading properties
+[19:57:28] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[19:57:29] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:57:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:57:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:57:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[19:57:29] [Server thread/INFO]: Default game type: SURVIVAL
+[19:57:29] [Server thread/INFO]: Generating keypair
+[19:57:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:57:29] [Server thread/INFO]: Using epoll channel type
+[19:57:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:57:29] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[19:57:29] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/CustomDiscs-2.5.2.jar' in 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [packetevents]. Please download and install these plugins to run 'CustomDiscs'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[19:57:33] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loading 2 libraries... please wait
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/dv8tion/JDA/5.2.2/JDA-5.2.2.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/neovisionaries/nv-websocket-client/2.14/nv-websocket-client-2.14.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/club/minnced/opus-java/1.1.1/opus-java-1.1.1.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/club/minnced/opus-java-api/1.1.1/opus-java-api-1.1.1.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/club/minnced/opus-java-natives/1.1.1/opus-java-natives-1.1.1.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/sf/trove4j/core/3.1.0/core-3.1.0.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/google/crypto/tink/tink/1.14.1/tink-1.14.1.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/google/errorprone/error_prone_annotations/2.22.0/error_prone_annotations-2.22.0.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/google/protobuf/protobuf-java/3.25.3/protobuf-java-3.25.3.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/club/minnced/discord-webhooks/0.8.4/discord-webhooks-0.8.4.jar
+[19:57:34] [Server thread/INFO]: [SpigotLibraryLoader] [AxInventoryRestore] Loaded library /workspaces/Server/servidor_minecraft/libraries/org/json/json/20230618/json-20230618.jar
+[19:57:34] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.0
+[19:57:34] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.0 is now loaded. Registering protocol transformers and injecting...
+[19:57:35] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:57:35] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:57:36] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[19:57:37] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
+[19:57:37] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.42
+[19:57:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:57:40] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
+[19:57:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1cc43d2e]
+[19:57:40] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.0
+[19:57:40] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.16
+[19:57:40] [Server thread/INFO]: [DatapackLoader] Loading server plugin DatapackLoader v1.4.1
+[19:57:40] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.0.2
+[19:57:40] [Server thread/INFO]: [PAC] Loading server plugin PterodactylAntiCrash v1.0
+[19:57:40] [Server thread/INFO]: [OpeNLogin] Loading server plugin OpeNLogin v1.6.7
+[19:57:40] [Server thread/INFO]: [PatPatPlugin] Loading server plugin PatPatPlugin v1.2.5+0268419
+[19:57:40] [Server thread/INFO]: [worldedit-selection-viewer] Loading server plugin worldedit-selection-viewer v1.5
+[19:57:40] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.10
+[19:57:41] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
+[19:57:41] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.10
+[19:57:41] [Server thread/INFO]: [CommandAPI] Loading server plugin CommandAPI v11.2.0
+[19:57:41] [Server thread/INFO]: [CommandAPI] Loaded version PaperNMS_1_21_R1
+[19:57:41] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
+[19:57:41] [Server thread/INFO]: [CommandAPI] Hooked into Adventure for AdventureChat/AdventureChatComponents
+[19:57:41] [Server thread/INFO]: [CommandAPI] Hooked into Paper for paper-specific API implementations
+[19:57:41] [Server thread/INFO]: [CommandAPI] Loaded platform CommandAPIPaper > CommandAPIBukkit
+[19:57:41] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v2.0.6
+[19:57:41] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[19:57:41] [Server thread/INFO]: [Sentry] Loading server plugin Sentry v1.4.0
+[19:57:41] [Server thread/INFO]: [URLCustomDiscs] Loading server plugin URLCustomDiscs v2.7.2
+[19:57:41] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v2.0.16
+[19:57:42] [Server thread/INFO]: [AxInventoryRestore] Loading server plugin AxInventoryRestore v3.12.1
+[19:57:42] [Server thread/INFO]: [nonchat] Loading server plugin nonchat v1.5.9
+[19:57:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:57:42] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[19:57:42] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.42
+[19:57:42] [Server thread/INFO]:         __    
+[19:57:42] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.42
+[19:57:42] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[19:57:42] [Server thread/INFO]: 
+[19:57:43] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:57:43] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:57:43] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:57:43] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1367ms)
+[19:57:43] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
+[19:57:43] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:57:43] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:57:44] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[19:57:46] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.0
+[19:57:47] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[19:57:48] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[19:57:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.12.0]
+[19:57:48] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[19:57:48] [Server thread/INFO]: [DatapackLoader] Enabling DatapackLoader v1.4.1
+[19:57:48] [ForkJoinPool.commonPool-worker-1/INFO]: [DatapackLoader] The '...plugins/DatapackLoader/datapacks' folder is empty. Please execute command 'dl help'.
+[19:57:48] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v2.0.6
+[19:57:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:57:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:57:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[19:57:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[19:57:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[19:57:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:57:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:57:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.0
+[19:57:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 2903414
+[19:57:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[19:57:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:57:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[19:57:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[19:57:48] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.15s)
+[19:57:48] [Server thread/INFO]: [nAntiBot]           _         _   _   ___       _   
+[19:57:48] [Server thread/INFO]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[19:57:48] [Server thread/INFO]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[19:57:48] [Server thread/INFO]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[19:57:48] [Server thread/INFO]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[19:57:48] [Server thread/INFO]: [nAntiBot]                                          
+[19:57:48] [Server thread/INFO]: [nAntiBot]  By: www.nickuc.com - V 2.0.6
+[19:57:48] [Server thread/INFO]: [nAntiBot] 
+[19:57:49] [Folia Async Scheduler Thread #2/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[19:57:49] [Server thread/INFO]: [nLogin] Enabling nLogin v2.0.16
+[19:57:49] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.12s)
+[19:57:49] [Server thread/INFO]: [nLogin]           __             _       
+[19:57:49] [Server thread/INFO]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
+[19:57:49] [Server thread/INFO]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
+[19:57:49] [Server thread/INFO]: [nLogin]  | | | / /__| (_) | (_| | | | | |
+[19:57:49] [Server thread/INFO]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
+[19:57:49] [Server thread/INFO]: [nLogin]                   |___/            
+[19:57:49] [Server thread/INFO]: [nLogin]  By: www.nickuc.com - V 2.0.16
+[19:57:49] [Server thread/INFO]: [nLogin]  
+[19:57:49] [Server thread/WARN]: [nLogin] The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[19:57:49] [Server thread/WARN]: [nLogin] The username-appender feature may fail with an invalid nickname kick message.
+[19:57:51] [Server thread/INFO]: [nonchat] Enabling nonchat v1.5.9
+[19:57:51] [Server thread/INFO]: [nonchat] Plugin version changed from unknown to 1.5.9
+[19:57:51] [Server thread/INFO]: [nonchat] Checking for configuration updates...
+[19:57:51] [Server thread/INFO]: [nonchat] Configuration reloaded successfully
+[19:57:51] [Server thread/INFO]: [nonchat] Built-in interactive placeholders will be loaded from config
+[19:57:51] [Server thread/INFO]: [nonchat] Loaded 2 custom interactive placeholders from config
+[19:57:51] [Server thread/INFO]: [nonchat] Interactive placeholders initialized successfully
+[19:57:51] [Server thread/INFO]: [nonchat] Created default deaths.yml
+[19:57:51] [Server thread/INFO]: [nonchat] Created default deaths.yml configuration file
+[19:57:51] [Server thread/INFO]: [nonchat] Deaths.yml is up to date, no changes needed
+[19:57:51] [Server thread/INFO]: [nonchat] Death messages configuration loaded successfully
+[19:57:51] [Server thread/INFO]: [nonchat] Death message service initialized successfully
+[19:57:51] [Server thread/INFO]: [nonchat] Indirect death tracking enabled (window: 10s)
+[19:57:51] [Server thread/INFO]: [nonchat] Core services initialized successfully
+[19:57:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: nonchat [1.5.9]
+[19:57:51] [Server thread/INFO]: [nonchat] PlaceholderAPI expansion registered successfully
+[19:57:51] [Server thread/INFO]: [nonchat] Indirect death tracking enabled (window: 10s, min damage: 1.0 hearts)
+[19:57:51] [Server thread/INFO]: [nonchat] Event listeners registered successfully
+[19:57:51] [Server thread/INFO]: [nonchat] LuckPerms integration enabled
+[19:57:51] [Server thread/INFO]: [nonchat] Vault not installed - economy features will be disabled
+[19:57:51] [Server thread/INFO]: [nonchat] PlaceholderAPI integration enabled
+[19:57:51] [Server thread/INFO]: [nonchat] Metrics initialized successfully
+[19:57:52] [Server thread/INFO]: [nonchat] DiscordSRV not available - Discord integration will be disabled
+[19:57:52] [Server thread/INFO]: [nonchat] Initializing update checker...
+[19:57:52] [Server thread/INFO]: [nonchat] Update checker initialized successfully
+[19:57:52] [Server thread/INFO]: [nonchat] plugin enabled
+[19:57:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:57:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:57:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:57:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:57:52] [Server thread/INFO]: Preparing level "world"
+[19:57:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:57:54] [Server thread/INFO]: Time elapsed: 1071 ms
+[19:57:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:57:54] [Server thread/INFO]: Time elapsed: 322 ms
+[19:57:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:57:54] [Server thread/INFO]: Time elapsed: 270 ms
+[19:57:54] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.0
+[19:57:54] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[19:57:54] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
+[19:57:55] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:57:55] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.16
+[19:57:55] [Server thread/ERROR]: [voicechat] Failed to parse target Paper version: 1.21.1-R0.1-SNAPSHOT
+[19:57:55] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.1-R0.1
+[19:57:55] [Server thread/INFO]: [voicechat] Compatibility version 20
+[19:57:55] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[19:57:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.6.16]
+[19:57:55] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[19:57:55] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[19:57:55] [Server thread/INFO]: [TAB] Enabling TAB v6.0.2
+[19:57:55] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.paper_1_20_5.NMSImplementationProvider
+[19:57:56] [Server thread/INFO]: [TAB] Enabled in 937ms
+[19:57:56] [Server thread/INFO]: [PAC] Enabling PterodactylAntiCrash v1.0
+[19:57:56] [Server thread/WARN]: [PAC] The API URL has not yet been set, no connection to Pterodactyl can be established.
+[19:57:56] [Server thread/INFO]: [OpeNLogin] Enabling OpeNLogin v1.6.7
+[19:57:56] [Server thread/INFO]: [OpeNLogin] nLogin was detected, turning off plugin...
+[19:57:56] [Server thread/INFO]: [OpeNLogin] Disabling OpeNLogin v1.6.7
+[19:57:56] [Server thread/INFO]: [PatPatPlugin] Enabling PatPatPlugin v1.2.5+0268419
+[19:57:57] [Server thread/INFO]: [patpat-plugin] Plugin started
+[19:57:57] [Server thread/INFO]: [worldedit-selection-viewer] Enabling worldedit-selection-viewer v1.5
+[19:57:57] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.10
+[19:57:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: huskhomes [4.10]
+[19:57:57] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
+[19:57:57] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.10
+[19:57:57] [Server thread/INFO]: [CommandAPI] Enabling CommandAPI v11.2.0
+[19:57:57] [Server thread/INFO]: [CommandAPI] Hooked into Paper ServerResourcesReloadedEvent
+[19:57:57] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[19:57:57] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[19:57:57] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[19:57:57] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[19:57:57] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[19:57:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[19:57:57] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[19:57:57] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[19:57:57] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[19:57:57] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[19:57:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[19:57:57] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[19:57:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[19:57:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[19:57:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[19:57:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[19:57:57] [Server thread/INFO]: [WorldGuard] Loading region data...
+[19:57:58] [Server thread/INFO]: [Sentry] Enabling Sentry v1.4.0
+[19:57:58] [Server thread/INFO]: [Sentry]    _____            __            
+[19:57:58] [Server thread/INFO]: [Sentry]   / ___/___  ____  / /________  __
+[19:57:58] [Server thread/INFO]: [Sentry]   \__ \/ _ \/ __ \/ __/ ___/ / / /
+[19:57:58] [Server thread/INFO]: [Sentry]  ___/ /  __/ / / / /_/ /  / /_/ / 
+[19:57:58] [Server thread/INFO]: [Sentry] /____/\___/_/ /_/\__/_/   \__, /  
+[19:57:58] [Server thread/INFO]: [Sentry]                          /____/   
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] Enabling Sentry 1.4.0
+[19:57:58] [Server thread/INFO]: [Sentry] Running on 1.21.1-R0.1-SNAPSHOT - MC 1.21.1
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] Initializing default main config...
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] Initializaing all plugin modules...
+[19:57:58] [Server thread/INFO]: [Sentry] | Loading module anti-bot
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module is currently enabled
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module config version is 0
+[19:57:58] [Server thread/INFO]: [Sentry]   | Registering all risk modes for the server...
+[19:57:58] [Server thread/INFO]: [Sentry]   | Loaded Risk Mode low-risk!
+[19:57:58] [Server thread/INFO]: [Sentry]   | Loaded Risk Mode medium-risk!
+[19:57:58] [Server thread/INFO]: [Sentry]   | Loaded Risk Mode high-risk!
+[19:57:58] [Server thread/INFO]: [Sentry]   | Loaded Risk Mode under-attack!
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] | Loading module anti-vpn
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module is currently disabled
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] | Loading module client-blocker
+[19:57:58] [Server thread/ERROR]: Cannot load plugins/Sentry/modules/client-blocker.yml
+org.bukkit.configuration.InvalidConfigurationException: while scanning an anchor
+ in 'reader', line 46, column 12:
+        kick: "&5&lSentry\n&cYou are not allowe ... 
+               ^
+unexpected character found &(38)
+ in 'reader', line 46, column 14:
+        kick: "&5&lSentry\n&cYou are not allowed  ... 
+                 ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at Sentry-1.4.0.jar/dev.square.e.b.u(Unknown Source) ~[Sentry-1.4.0.jar:?]
+	at Sentry-1.4.0.jar/dev.square.e.b.<init>(Unknown Source) ~[Sentry-1.4.0.jar:?]
+	at Sentry-1.4.0.jar/dev.square.e.a.c.<init>(Unknown Source) ~[Sentry-1.4.0.jar:?]
+	at Sentry-1.4.0.jar/dev.square.e.c.a(Unknown Source) ~[Sentry-1.4.0.jar:?]
+	at Sentry-1.4.0.jar/dev.square.Sentry.onEnable(Unknown Source) ~[Sentry-1.4.0.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning an anchor
+ in 'reader', line 46, column 12:
+        kick: "&5&lSentry\n&cYou are not allowe ... 
+               ^
+unexpected character found &(38)
+ in 'reader', line 46, column 14:
+        kick: "&5&lSentry\n&cYou are not allowed  ... 
+                 ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanAnchor(ScannerImpl.java:1510) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchAnchor(ScannerImpl.java:968) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:401) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:238) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:637) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	... 20 more
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module is currently disabled
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] | Loading module hack-blocker
+[19:57:58] [Server thread/INFO]: [Sentry] An error occurred on module hack-blocker
+[19:57:58] [Server thread/INFO]: [Sentry] | This module requires Sentry Prime to enable! Consider supporting the plugin here - https://ko-fi.com/drawned
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] | Loading module command-blocker
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module is currently enabled
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module config version is 0
+[19:57:58] [Server thread/INFO]: [Sentry]   | Loading command entries...
+[19:57:58] [Server thread/INFO]: [Sentry]   | Command Entry pl loaded!
+[19:57:58] [Server thread/INFO]: [Sentry]   | Command Entry destroyeverything loaded!
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] | Loading module ip-whitelist
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module is currently enabled
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module config version is 0
+[19:57:58] [Server thread/INFO]: [Sentry]   | Registering events...
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] | Loading module item-control
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module is currently enabled
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module config version is 2
+[19:57:58] [Server thread/INFO]: [Sentry]   | Registering events...
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] | Loading module tab-complete-blocker
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module is currently enabled
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module config version is 1
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module is enabled, but sub-module Restrict Shown Commands is disabled!
+[19:57:58] [Server thread/INFO]: [Sentry]   | Registering events...
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] | Loading module op-protection
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module is currently disabled
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] | Loading module security-patches
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module is currently enabled
+[19:57:58] [Server thread/INFO]: [Sentry]   | Module config version is 1
+[19:57:58] [Server thread/INFO]: [Sentry]   | Registering events...
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] Initializing plugin event listeners...
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] Initializing all plugin integrations...
+[19:57:58] [Server thread/INFO]: [Sentry] | Discord webhook integration not enabled.
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] Initializing plugin commands...
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] Initializing bStats metrics...
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] Initializing compatibility...
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [Sentry] Checking for module updates...
+[19:57:58] [Server thread/INFO]: [Sentry]  
+[19:57:58] [Server thread/INFO]: [URLCustomDiscs] Enabling URLCustomDiscs v2.7.2
+[19:57:58] [Server thread/INFO]: [URLCustomDiscs] URLCustomDiscs enabled !
+[19:57:58] [Server thread/INFO]: [URLCustomDiscs] Running on OS: linux
+[19:57:58] [Server thread/INFO]: [URLCustomDiscs] Detected Minecraft server version: 1.21.1
+[19:57:58] [Server thread/INFO]: [URLCustomDiscs] ProtocolLib detected! Custom Now Playing toasts will be available.
+[19:57:58] [Server thread/INFO]: [URLCustomDiscs] Registered Toast Interceptors
+[19:57:58] [Server thread/INFO]: [AxInventoryRestore] Enabling AxInventoryRestore v3.12.1
+[19:58:00] [Server thread/INFO]: [spark] Starting background profiler...
+[19:58:00] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:58:00] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[19:58:00] [Server thread/INFO]: Done preparing level "world" (8.560s)
+[19:58:00] [Server thread/INFO]: Running delayed init tasks
+[19:58:00] [Server thread/INFO]: Done (42.544s)! For help, type "help"
+[19:58:00] [Server thread/INFO]: Timings Reset
+[19:58:00] [Craft Scheduler Thread - 7 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[19:58:00] [Craft Scheduler Thread - 4 - nonchat/INFO]: This message is sent every 5 minutes. You can change the interval in the broadcast.example.interval setting.
+[19:58:00] [Server thread/INFO]: [voicechat] Loading plugins
+[19:58:00] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[19:58:00] [Server thread/INFO]: [voicechat] Initializing plugins
+[19:58:00] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[19:58:00] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[19:58:01] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[19:58:02] [Server thread/INFO]: [Sentry] Checking for plugin updates...
+[19:58:02] [Folia Async Scheduler Thread #3/INFO]: ✔ Sentry is updated! Latest version: 1.4.0
+[19:58:05] [pool-24-thread-1/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 51, threads = 4, took 16.44s)
+[19:58:05] [Craft Scheduler Thread - 4 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
+[19:58:06] [User Authenticator #0/INFO]: UUID of player AL5PT is 3678aaa4-193c-3005-aadb-5e617b75fe27
+[19:58:06] [User Authenticator #1/INFO]: UUID of player ImNottVanxxz7 is 4b09082d-f410-3f6e-bd67-f8d7d5dcbb05
+[19:58:08] [Server thread/INFO]: (+) %luckperms_prefix% %player_name% %luckperms_suffix%
+[19:58:08] [Server thread/INFO]: AL5PT[/127.125.143.250:56285] logged in with entity id 64 at ([world]-153.25648811982677, 63.0, 2470.965650985001)
+[19:58:08] [Server thread/INFO]: (+) %luckperms_prefix% %player_name% %luckperms_suffix%
+[19:58:08] [Server thread/INFO]: ImNottVanxxz7[/127.139.156.114:58447] logged in with entity id 65 at ([world]92.94604996924173, 74.0, -128.7829808090861)
+[19:58:15] [User Authenticator #1/INFO]: UUID of player Pilaw is 5028f6a4-2ce5-3d94-9a48-12a28e950414
+[19:58:16] [Server thread/INFO]: (+) %luckperms_prefix% %player_name% %luckperms_suffix%
+[19:58:16] [Server thread/INFO]: Pilaw[/127.176.211.68:44011] logged in with entity id 441 at ([world]-913.9623555156253, 63.9375, -817.3017667655213)
+[19:58:17] [Server thread/INFO]: [voicechat] Received secret request of Pilaw (20)
+[19:58:17] [Server thread/INFO]: [voicechat] Sent secret to Pilaw
+[19:58:21] [Server thread/INFO]: Pilaw issued server command: /login
+[19:58:22] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Pilaw has successfully logged in.
+[19:58:27] [Server thread/INFO]: ImNottVanxxz7 issued server command: /login
+[19:58:27] [Server thread/INFO]: ImNottVanxxz7 lost connection: La contraseña ingresada es incorrecta.
+[19:58:27] [Server thread/INFO]: [voicechat] Disconnecting client ImNottVanxxz7
+[19:58:27] [Server thread/INFO]: (-) %luckperms_prefix% %player_name% %luckperms_suffix%
+[19:58:31] [Server thread/INFO]: AL5PT issued server command: /login
+[19:58:31] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user AL5PT has successfully logged in.
+[19:58:32] [User Authenticator #1/INFO]: UUID of player ImNottVanxxz7 is 4b09082d-f410-3f6e-bd67-f8d7d5dcbb05
+[19:58:32] [Server thread/INFO]: (+) %luckperms_prefix% %player_name% %luckperms_suffix%
+[19:58:32] [Server thread/INFO]: ImNottVanxxz7[/127.139.156.114:38713] logged in with entity id 738 at ([world]92.94604996924173, 74.0, -128.7829808090861)
+[19:58:33] [Server thread/INFO]: Pilaw issued server command: /god
+[19:58:34] [Server thread/INFO]: ImNottVanxxz7 issued server command: /login
+[19:58:34] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user ImNottVanxxz7 has successfully logged in.
+[19:58:35] [ForkJoinPool.commonPool-worker-1/INFO]: (L) %luckperms_prefix% %player_name% %luckperms_suffix%: xD
+[19:58:41] [Server thread/INFO]: Pilaw issued server command: /axinventoryrestore:inventoryrestore
+[19:58:54] [Server thread/INFO]: Pilaw issued server command: /axir view pilaw
+[19:58:58] [Server thread/INFO]: Made AL5PT a server operator
+[19:59:04] [User Authenticator #1/INFO]: UUID of player urielargentino is c42aa533-4a63-39c7-b61e-ae455217be72
+[19:59:05] [Server thread/INFO]: (+) %luckperms_prefix% %player_name% %luckperms_suffix%
+[19:59:05] [Server thread/INFO]: urielargentino[/127.132.2.213:32783] logged in with entity id 1044 at ([world]388.4784742505345, 26.0, 3741.5111136162313)
+[19:59:10] [Server thread/INFO]: Pilaw issued server command: /luckperms
+[19:59:14] [User Authenticator #1/INFO]: UUID of player potato_JP10 is 6c704795-0226-308f-b2de-2626e59dd5d7
+[19:59:14] [Server thread/INFO]: (+) %luckperms_prefix% %player_name% %luckperms_suffix%
+[19:59:14] [Server thread/INFO]: potato_JP10[/127.130.94.145:48977] logged in with entity id 1381 at ([world]-2441.198873110084, -50.32352912385573, -2961.414276562395)
+[19:59:16] [Server thread/INFO]: urielargentino issued server command: /login
+[19:59:16] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user urielargentino has successfully logged in.
+[19:59:35] [Server thread/INFO]: Pilaw issued server command: /
+[19:59:41] [Server thread/INFO]: Pilaw issued server command: /heal Pilaw
+[19:59:57] [Server thread/INFO]: potato_JP10 lost connection: Disconnected
+[19:59:57] [Server thread/INFO]: [voicechat] Disconnecting client potato_JP10
+[19:59:57] [Server thread/INFO]: (-) %luckperms_prefix% %player_name% %luckperms_suffix%
+[20:00:03] [ForkJoinPool.commonPool-worker-1/INFO]: (L) %luckperms_prefix% %player_name% %luckperms_suffix%: q
+[20:00:05] [ForkJoinPool.commonPool-worker-1/INFO]: (L) %luckperms_prefix% %player_name% %luckperms_suffix%: q
+[20:00:07] [ForkJoinPool.commonPool-worker-1/INFO]: (L) %luckperms_prefix% %player_name% %luckperms_suffix%: xd
+[20:00:15] [Server thread/INFO]: Pilaw issued server command: /rtp
+[20:00:19] [ForkJoinPool.commonPool-worker-1/INFO]: (L) %luckperms_prefix% %player_name% %luckperms_suffix%: ya veras espera xD
+[20:00:26] [Server thread/INFO]: Pilaw issued server command: /sethome 131
+[20:00:49] [Server thread/INFO]: AL5PT issued server command: /lp creategroup Owner
+[20:00:49] [luckperms-command-executor/INFO]: [LP] LOG > (AL5PT) [G] (owner)
+[20:00:49] [luckperms-command-executor/INFO]: [LP] LOG > create
+[20:01:04] [Server thread/INFO]: ImNottVanxxz7 lost connection: Disconnected
+[20:01:04] [Server thread/INFO]: [voicechat] Disconnecting client ImNottVanxxz7
+[20:01:04] [Server thread/INFO]: (-) %luckperms_prefix% %player_name% %luckperms_suffix%
+[20:01:08] [ForkJoinPool.commonPool-worker-1/INFO]: (L) %luckperms_prefix% %player_name% %luckperms_suffix%: polnito
+[20:01:10] [Server thread/INFO]: AL5PT issued server command: /plugins
+[20:01:13] [User Authenticator #2/INFO]: UUID of player potato_JP10 is 6c704795-0226-308f-b2de-2626e59dd5d7
+[20:01:14] [Server thread/INFO]: (+) %luckperms_prefix% %player_name% %luckperms_suffix%
+[20:01:14] [Server thread/INFO]: potato_JP10[/127.130.94.145:40263] logged in with entity id 2997 at ([world]-2441.198873110084, -51.0, -2961.414276562395)
+[20:01:20] [ForkJoinPool.commonPool-worker-1/INFO]: (L) %luckperms_prefix% %player_name% %luckperms_suffix%: pene
+[20:01:57] [Server thread/INFO]: AL5PT issued server command: /papi ecloud download LuckPerms
+[20:01:58] [placeholderapi-io-#1/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:02:01] [Server thread/INFO]: AL5PT issued server command: /papi reload
+[20:02:01] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:02:01] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:02:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[20:02:02] [ForkJoinPool.commonPool-worker-1/INFO]: (L)  %player_name% : a
+[20:02:11] [Server thread/INFO]: potato_JP10 issued server command: /login
+[20:02:11] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user potato_JP10 has successfully logged in.
+[20:02:15] [Server thread/INFO]: AL5PT issued server command: /papi ecloud download Player
+[20:02:15] [placeholderapi-io-#2/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:02:18] [Server thread/INFO]: 💥 potato_JP10 angered the Warden
+[20:02:19] [Server thread/INFO]: AL5PT issued server command: /papi reload
+[20:02:19] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:02:19] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:02:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[20:02:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[20:02:19] [ForkJoinPool.commonPool-worker-1/INFO]: (L)  AL5PT : a
+[20:02:24] [ForkJoinPool.commonPool-worker-1/INFO]: (L)  Pilaw : vas
+[20:02:30] [ForkJoinPool.commonPool-worker-1/INFO]: (L)  AL5PT : de apoco va xD
+[20:02:33] [Server thread/INFO]: potato_JP10 issued server command: /back
+[20:03:00] [Craft Scheduler Thread - 36 - nonchat/INFO]: This message is sent every 5 minutes. You can change the interval in the broadcast.example.interval setting.
+[20:03:12] [ForkJoinPool.commonPool-worker-1/INFO]: (L)  urielargentino : q
+[20:03:48] [ForkJoinPool.commonPool-worker-1/INFO]: (L)  AL5PT : so
+[20:04:01] [Server thread/INFO]: potato_JP10 has made the advancement [Diamonds!]
+[20:04:07] [ForkJoinPool.commonPool-worker-1/INFO]: (L)  AL5PT : apenas 2gb vamos que bien
+[20:04:36] [Server thread/INFO]: Pilaw issued server command: /home 131
+[20:04:52] [User Authenticator #3/INFO]: UUID of player leoproo34 is 86ae942b-8f76-3ed6-8cf0-c66af9d9900a
+[20:04:53] [Server thread/INFO]: (+)  leoproo34 
+[20:04:53] [Server thread/INFO]: leoproo34[/127.149.103.210:48397] logged in with entity id 6814 at ([world]-2586.0311858912937, -46.0, -2888.3458226266594)
+[20:05:05] [Server thread/INFO]: AL5PT issued server command: /broadcast Hola perros
+[20:05:05] [Server thread/INFO]: 
+§#FFAFFBBroadcast: Hola perros
+
+[20:05:05] [Server thread/INFO]: leoproo34 issued server command: /login
+[20:05:06] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user leoproo34 has successfully logged in.
+[20:05:09] [ForkJoinPool.commonPool-worker-1/INFO]: (L)  urielargentino : hola ivan
+[20:05:27] [ForkJoinPool.commonPool-worker-1/INFO]: (L)  AL5PT : ok ya veo
+[20:05:50] [Server thread/INFO]: potato_JP10 has made the advancement [Cover Me with Diamonds]
+[20:05:51] [Server thread/INFO]: AL5PT issued server command: /papi ecloud download Vault
+[20:05:51] [placeholderapi-io-#3/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:05:54] [Server thread/INFO]: AL5PT issued server command: /papi reload
+[20:05:54] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:05:54] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:05:54] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion vault due to a missing plugin: Vault
+[20:05:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[20:05:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[20:06:10] [Server thread/INFO]: AL5PT issued server command: /papi ecloud download Statistic
+[20:06:10] [placeholderapi-io-#4/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:06:13] [Server thread/INFO]: AL5PT issued server command: /papi reload
+[20:06:13] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:06:13] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:06:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[20:06:13] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion vault due to a missing plugin: Vault
+[20:06:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[20:06:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[20:06:14] [ForkJoinPool.commonPool-worker-2/INFO]: (L)  AL5PT : a
+[20:06:15] [Server thread/INFO]: leoproo34 has made the advancement [Cover Me with Diamonds]
+[20:06:18] [ForkJoinPool.commonPool-worker-2/INFO]: (L)  AL5PT : ok
+[20:06:21] [ForkJoinPool.commonPool-worker-2/INFO]: (L)  AL5PT : perfect
+[20:06:50] [Server thread/INFO]: AL5PT issued server command: /m AL5PT a
+[20:07:00] [Server thread/INFO]: Villager Villager['Farmer'/6454, uuid='e267a5c0-c886-498d-b9d0-b7a05020abf6', l='ServerLevel[world]', x=-915.70, y=61.00, z=-834.16, cpos=[-58, -53], tl=43291, v=true] died, message: 'Farmer was slain by Pilaw'
+[20:07:13] [Server thread/INFO]: AL5PT issued server command: /nonchat:spy
+[20:07:15] [ForkJoinPool.commonPool-worker-2/INFO]: (L)  AL5PT : a
+[20:07:18] [Server thread/INFO]: AL5PT issued server command: /spy
+[20:07:19] [ForkJoinPool.commonPool-worker-2/INFO]: (L)  AL5PT : a
+[20:07:36] [Server thread/INFO]: 💥 potato_JP10 angered the Warden
+[20:07:46] [User Authenticator #4/INFO]: UUID of player ImNottVanxxz7 is 4b09082d-f410-3f6e-bd67-f8d7d5dcbb05
+[20:07:47] [Server thread/INFO]: (+)  ImNottVanxxz7 
+[20:07:47] [Server thread/INFO]: ImNottVanxxz7[/127.139.156.114:47343] logged in with entity id 9213 at ([world]95.69102464611414, 59.0, -134.85525182921336)
+[20:07:52] [Server thread/INFO]: potato_JP10 issued server command: /huskhomes:back
+[20:07:53] [Server thread/INFO]: ImNottVanxxz7 issued server command: /login
+[20:07:53] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user ImNottVanxxz7 has successfully logged in.
+[20:08:00] [Craft Scheduler Thread - 64 - nonchat/INFO]: This message is sent every 5 minutes. You can change the interval in the broadcast.example.interval setting.
+[20:08:12] [Server thread/INFO]:  potato_JP10 was slain by Warden
+[20:08:17] [Server thread/INFO]: potato_JP10 issued server command: /huskhomes:back
+[20:08:37] [User Authenticator #4/INFO]: UUID of player stevencastro123 is 56d7a3f3-75a1-3ab7-bac6-32262eaba414
+[20:08:37] [Server thread/INFO]: (+)  stevencastro123 
+[20:08:37] [Server thread/INFO]: stevencastro123[/127.78.226.129:38961] logged in with entity id 9953 at ([world]1340.3881060863905, 68.0, 11014.82895412154)
+[20:08:44] [Server thread/INFO]: stevencastro123 issued server command: /login
+[20:08:44] [Folia Async Scheduler Thread #0/INFO]: [nLogin] The user stevencastro123 has successfully logged in.
+[20:08:48] [ForkJoinPool.commonPool-worker-2/INFO]: (L)  stevencastro123 : volvi
+[20:08:53] [Server thread/INFO]: ⚔ potato_JP10 lost a fight with Warden
+[20:08:56] [ForkJoinPool.commonPool-worker-2/INFO]: (L)  stevencastro123 : l
+[20:08:57] [Server thread/INFO]: potato_JP10 issued server command: /huskhomes:back
+[20:09:06] [ForkJoinPool.commonPool-worker-2/INFO]: (L)  stevencastro123 : porque atras de mi nombre sale L?
+[20:09:06] [ForkJoinPool.commonPool-worker-2/INFO]: (L)  AL5PT : w
+[20:09:14] [ForkJoinPool.commonPool-worker-2/INFO]: (L)  AL5PT : Chat local
+[20:09:22] [Server thread/INFO]: ⚔ potato_JP10 was killed by Warden
+[20:09:25] [Server thread/INFO]: potato_JP10 issued server command: /back
+[20:09:30] [ForkJoinPool.commonPool-worker-2/INFO]: (L)  AL5PT : ahora lo hago global
+[20:09:31] [ForkJoinPool.commonPool-worker-2/INFO]: (L)  Pilaw : lol
+[20:10:02] [Server thread/INFO]: AL5PT issued server command: /nonchat reload
+[20:10:02] [Server thread/INFO]: [nonchat] Loaded 2 custom interactive placeholders from config
+[20:10:02] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:10:02] [Server thread/INFO]: [nonchat] Configuration reloaded successfully
+[20:10:02] [Server thread/INFO]: [nonchat] Loaded 2 custom interactive placeholders from config
+[20:10:02] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:10:02] [Server thread/INFO]: [nonchat] Deaths.yml is up to date, no changes needed
+[20:10:02] [Server thread/INFO]: [nonchat] Death messages configuration loaded successfully
+[20:10:02] [Server thread/INFO]: [nonchat] Damage tracking listener re-registered (window: 10s, min damage: 1.0 hearts)
+[20:10:02] [Server thread/INFO]: [nonchat] Services reloaded successfully
+[20:10:02] [Craft Scheduler Thread - 77 - nonchat/INFO]: This message is sent every 5 minutes. You can change the interval in the broadcast.example.interval setting.
+[20:10:04] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : a
+[20:10:06] [Server thread/INFO]: leoproo34 issued server command: /rtp
+[20:10:07] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : ahora es global
+[20:10:11] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : como asi
+[20:10:14] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  urielargentino : q
+[20:10:20] [Server thread/INFO]: urielargentino issued server command: /rtp
+[20:10:21] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : todos podran ver tus mensajes
+[20:10:38] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : como asi si te pongo /msg me ven?
+[20:10:41] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  AL5PT : si alguien esta en el end/netherno podia ver tu mensaje
+[20:10:46] [Server thread/INFO]: 💥 potato_JP10 angered the Warden
+[20:10:50] [Server thread/INFO]: potato_JP10 issued server command: /back
+[20:11:01] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  AL5PT : pues con solo tocar mi nombre podes mandar mensaje privado
+[20:11:11] [Server thread/INFO]: urielargentino issued server command: /m AL5PT ola
+[20:11:12] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  stevencastro123 : a
+[20:11:14] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  AL5PT : y arriba de tu cabeza sale una burbuja de texto
+[20:11:20] [Server thread/INFO]: leoproo34 issued server command: /rtp
+[20:11:25] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  stevencastro123 : eso es good
+[20:11:39] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  stevencastro123 : AL5PT bro
+[20:11:46] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  AL5PT : si mandan msg no se va a ver
+[20:11:50] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  ImNottVanxxz7 : Pilaw man
+[20:11:59] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  AL5PT : solo al que le mandaste podra verlo
+[20:12:01] [Server thread/INFO]: stevencastro123 issued server command: /m AL5PT puedes decirme de quien es la base que encontre?
+[20:12:04] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  AL5PT : eso no cambio
+[20:12:15] [Server thread/INFO]: AL5PT issued server command: /msg stevencastro123 no se su nombre
+[20:12:22] [Server thread/INFO]: AL5PT issued server command: /msg stevencastro123 es de beto creo
+[20:12:28] [Server thread/INFO]: potato_JP10 issued server command: /tpa leoproo34
+[20:12:31] [Server thread/INFO]: leoproo34 issued server command: /huskhomes:tpaccept potato_JP10
+[20:12:31] [Server thread/INFO]: stevencastro123 issued server command: /m AL5PT beto_19?
+[20:12:37] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  stevencastro123 : AAA ya se de quien
+[20:12:41] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  stevencastro123 : el de ayer?
+[20:12:47] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  Pilaw : q?
+[20:12:54] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  stevencastro123 : nda ya se de quien es
+[20:13:10] [Server thread/INFO]: Villager Villager['Toolsmith'/9993, uuid='8efb2ab9-3c03-4630-ac2d-a3652ed24175', l='ServerLevel[world]', x=1342.30, y=68.00, z=10939.98, cpos=[83, 683], tl=43052, v=true] died, message: 'Toolsmith was slain by Zombie'
+[20:13:14] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  stevencastro123 : gracias
+[20:13:16] [Server thread/INFO]: AL5PT issued server command: /nonchat reload
+[20:13:16] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:13:16] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:13:16] [Server thread/INFO]: [nonchat] Configuration reloaded successfully
+[20:13:16] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:13:16] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:13:16] [Server thread/INFO]: [nonchat] Deaths.yml is up to date, no changes needed
+[20:13:16] [Server thread/INFO]: [nonchat] Death messages configuration loaded successfully
+[20:13:16] [Server thread/INFO]: [nonchat] Damage tracking listener re-registered (window: 10s, min damage: 1.0 hearts)
+[20:13:16] [Server thread/INFO]: [nonchat] Services reloaded successfully
+[20:13:16] [Craft Scheduler Thread - 93 - nonchat/INFO]: This message is sent every 5 minutes. You can change the interval in the broadcast.example.interval setting.
+[20:13:20] [ForkJoinPool.commonPool-worker-1/INFO]: (G)  stevencastro123 : te mereces un pan
+[20:13:27] [Server thread/INFO]: AL5PT issued server command: /nonchat:bc a
+[20:13:27] [Server thread/INFO]: 
+§#FFAFFBBroadcast: a
+
+[20:13:39] [Server thread/INFO]: Pilaw issued server command: /home end
+[20:13:40] [Server thread/INFO]: 🏹 potato_JP10 was turned into a pincushion by Skeleton
+[20:13:47] [Server thread/INFO]: potato_JP10 issued server command: /huskhomes:back
+[20:13:58] [Server thread/INFO]: Villager Villager['Toolsmith'/9973, uuid='35b53a71-c7ef-4dbc-8555-d3a711e2928b', l='ServerLevel[world]', x=1369.70, y=65.00, z=10994.30, cpos=[85, 687], tl=44369, v=true] died, message: 'Toolsmith was slain by Zombie'
+[20:14:24] [Server thread/INFO]: AL5PT issued server command: /nonchat reload
+[20:14:24] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:14:24] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:14:24] [Server thread/INFO]: [nonchat] Configuration reloaded successfully
+[20:14:24] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:14:24] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:14:24] [Server thread/INFO]: [nonchat] Deaths.yml is up to date, no changes needed
+[20:14:24] [Server thread/INFO]: [nonchat] Death messages configuration loaded successfully
+[20:14:24] [Server thread/INFO]: [nonchat] Damage tracking listener re-registered (window: 10s, min damage: 1.0 hearts)
+[20:14:24] [Server thread/INFO]: [nonchat] Services reloaded successfully
+[20:14:24] [Craft Scheduler Thread - 100 - nonchat/INFO]: This message is sent every 5 minutes. You can change the interval in the broadcast.example.interval setting.
+[20:14:29] [Server thread/INFO]: AL5PT issued server command: /bc a
+[20:14:29] [Server thread/INFO]: §#FFAFFBAdministracion: a
+[20:14:41] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : what
+[20:14:45] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : quien es ese
+[20:14:50] [Server thread/INFO]: AL5PT issued server command: /nonchat reload
+[20:14:50] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:14:50] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:14:50] [Server thread/INFO]: [nonchat] Configuration reloaded successfully
+[20:14:50] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:14:50] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:14:50] [Server thread/INFO]: [nonchat] Deaths.yml is up to date, no changes needed
+[20:14:50] [Server thread/INFO]: [nonchat] Death messages configuration loaded successfully
+[20:14:50] [Server thread/INFO]: [nonchat] Damage tracking listener re-registered (window: 10s, min damage: 1.0 hearts)
+[20:14:50] [Server thread/INFO]: [nonchat] Services reloaded successfully
+[20:14:50] [Craft Scheduler Thread - 101 - nonchat/INFO]: This message is sent every 5 minutes. You can change the interval in the broadcast.example.interval setting.
+[20:14:52] [Server thread/INFO]: AL5PT issued server command: /bc a
+[20:14:52] [Server thread/INFO]: FAFFBAdministracion: a
+[20:15:00] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : a
+[20:15:05] [Server thread/INFO]:  urielargentino was shot by Skeleton
+[20:15:06] [Server thread/INFO]: leoproo34 issued server command: /tpa potato_JP10
+[20:15:13] [Server thread/INFO]: urielargentino issued server command: /huskhomes:back
+[20:15:18] [Server thread/INFO]: AL5PT issued server command: /nonchat reload
+[20:15:18] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:15:18] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:15:18] [Server thread/INFO]: [nonchat] Configuration reloaded successfully
+[20:15:18] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:15:18] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:15:18] [Server thread/INFO]: [nonchat] Deaths.yml is up to date, no changes needed
+[20:15:18] [Server thread/INFO]: [nonchat] Death messages configuration loaded successfully
+[20:15:18] [Server thread/INFO]: [nonchat] Damage tracking listener re-registered (window: 10s, min damage: 1.0 hearts)
+[20:15:18] [Server thread/INFO]: [nonchat] Services reloaded successfully
+[20:15:18] [Craft Scheduler Thread - 104 - nonchat/INFO]: This message is sent every 5 minutes. You can change the interval in the broadcast.example.interval setting.
+[20:15:20] [Server thread/INFO]: AL5PT issued server command: /bc a
+[20:15:20] [Server thread/INFO]: Administracion: a
+[20:15:30] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : as
+[20:15:31] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : a
+[20:15:34] [Server thread/INFO]: potato_JP10 issued server command: /huskhomes:tpaccept leoproo34
+[20:15:42] [Server thread/INFO]: leoproo34 issued server command: /tpa potato_JP10
+[20:15:43] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg Pilaw manito me recuerdas?
+[20:15:45] [Server thread/INFO]: potato_JP10 issued server command: /huskhomes:tpaccept leoproo34
+[20:15:58] [Server thread/INFO]: AL5PT issued server command: /bc Anuncio SrVirguez en directo muchachos!!
+[20:15:58] [Server thread/INFO]: Administracion: Anuncio SrVirguez en directo muchachos!!
+[20:16:05] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : vamoss
+[20:16:14] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : pense que no hiba a hacer
+[20:16:27] [Server thread/INFO]: AL5PT issued server command: /nonchat reload
+[20:16:27] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:16:27] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:16:27] [Server thread/INFO]: [nonchat] Configuration reloaded successfully
+[20:16:27] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:16:27] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:16:27] [Server thread/INFO]: [nonchat] Deaths.yml is up to date, no changes needed
+[20:16:27] [Server thread/INFO]: [nonchat] Death messages configuration loaded successfully
+[20:16:27] [Server thread/INFO]: [nonchat] Damage tracking listener re-registered (window: 10s, min damage: 1.0 hearts)
+[20:16:27] [Server thread/INFO]: [nonchat] Services reloaded successfully
+[20:16:27] [Craft Scheduler Thread - 110 - nonchat/INFO]: This message is sent every 5 minutes. You can change the interval in the broadcast.example.interval setting.
+[20:16:32] [Server thread/INFO]: AL5PT issued server command: /bc era mentira
+[20:16:32] [Server thread/INFO]: Administracion: era mentira
+[20:16:41] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : q risa -_-
+[20:16:48] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  leoproo34 : jajajajajajja
+[20:17:13] [Server thread/INFO]: AL5PT issued server command: /nonchat reload
+[20:17:13] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:17:13] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:17:13] [Server thread/INFO]: [nonchat] Configuration reloaded successfully
+[20:17:13] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:17:13] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:17:13] [Server thread/INFO]: [nonchat] Deaths.yml is up to date, no changes needed
+[20:17:13] [Server thread/INFO]: [nonchat] Death messages configuration loaded successfully
+[20:17:13] [Server thread/INFO]: [nonchat] Damage tracking listener re-registered (window: 10s, min damage: 1.0 hearts)
+[20:17:13] [Server thread/INFO]: [nonchat] Services reloaded successfully
+[20:17:13] [Craft Scheduler Thread - 115 - nonchat/INFO]: This message is sent every 5 minutes. You can change the interval in the broadcast.example.interval setting.
+[20:17:14] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : ahora por esa broma me das full netherita
+[20:17:14] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : a
+[20:17:16] [Server thread/INFO]: AL5PT issued server command: /bc a
+[20:17:16] [Server thread/INFO]: /nAdministracion: a/n
+[20:17:23] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : te delataste JAJAJA
+[20:17:27] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : a
+[20:17:32] [Server thread/INFO]: Pilaw issued server command: /home 131
+[20:17:49] [Server thread/INFO]: leoproo34 has made the advancement [Sweet Dreams]
+[20:17:53] [Server thread/INFO]: potato_JP10 has made the advancement [Sweet Dreams]
+[20:17:56] [Server thread/INFO]: urielargentino has made the advancement [Ice Bucket Challenge]
+[20:17:58] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : disque home 131
+[20:18:13] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  Pilaw : ?
+[20:18:16] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : el diablo
+[20:19:02] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : el diavlo
+[20:19:06] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : estaban culiando
+[20:19:32] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  Pilaw : ImNottVanxxz7 tpate a mi
+[20:19:41] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : mrd
+[20:19:43] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg Pilaw no puedo
+[20:19:51] [Server thread/INFO]: Pilaw issued server command: /r por?
+[20:19:53] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : mm que mas falta
+[20:19:55] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg Pilaw estoy en mi base
+[20:20:04] [Server thread/INFO]: Pilaw issued server command: /r pone un /home
+[20:20:20] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[20:20:23] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[20:20:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
+[20:20:26] [Server thread/INFO]: ImNottVanxxz7 issued server command: /homelist
+[20:20:29] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[20:20:30] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[20:20:32] [Server thread/INFO]: ImNottVanxxz7 issued server command: /homelist
+[20:20:36] [Server thread/INFO]: ImNottVanxxz7 issued server command: /homes
+[20:20:44] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : nah
+[20:20:46] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg Pilaw no me deja
+[20:20:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2542ms or 50 ticks behind
+[20:20:48] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : al
+[20:20:52] [Server thread/INFO]: AL5PT issued server command: /tab scoreboard show
+[20:20:56] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : porque pones eso
+[20:20:57] [Server thread/INFO]: Pilaw issued server command: /r es /sethome (nombre)
+[20:21:03] [Server thread/INFO]: ImNottVanxxz7 issued server command: /sethome carlos
+[20:21:07] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[20:21:13] [Server thread/INFO]: AL5PT issued server command: /bc a
+[20:21:13] [Server thread/INFO]: /nAdministracion: a/n
+[20:21:21] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : ahora te voy a decir vanessa
+[20:21:23] [Server thread/INFO]: Pilaw issued server command: /r y para irte a tu home pones /home nombre
+[20:21:30] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[20:21:31] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : porque no me deja poner tu nombre
+[20:21:40] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : AL5PT
+[20:21:51] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : me dice que muchas mayusculas
+[20:21:56] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg Pilaw para que quieres que me tpe
+[20:21:57] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : xD
+[20:22:06] [Server thread/INFO]: Pilaw issued server command: /r te quiero mostrar algo
+[20:22:09] [Server thread/INFO]: urielargentino has made the advancement [Enchanter]
+[20:22:18] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : yo tmb quiero el logro
+[20:22:18] [Craft Scheduler Thread - 142 - nonchat/INFO]: This message is sent every 5 minutes. You can change the interval in the broadcast.example.interval setting.
+[20:22:27] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : 5 minutos de que mrd
+[20:22:46] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg Pilaw bueno
+[20:22:52] [Server thread/INFO]: ImNottVanxxz7 issued server command: /tpa Pilaw
+[20:22:54] [Server thread/INFO]: Pilaw issued server command: /huskhomes:tpaccept ImNottVanxxz7
+[20:22:57] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : ni deja habrir el enlace
+[20:23:07] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  ImNottVanxxz7 : di
+[20:23:11] [Server thread/INFO]: AL5PT issued server command: /nonchat reload
+[20:23:11] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:23:11] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:23:11] [Server thread/INFO]: [nonchat] Configuration reloaded successfully
+[20:23:11] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:23:11] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:23:11] [Server thread/INFO]: [nonchat] Deaths.yml is up to date, no changes needed
+[20:23:11] [Server thread/INFO]: [nonchat] Death messages configuration loaded successfully
+[20:23:11] [Server thread/INFO]: [nonchat] Damage tracking listener re-registered (window: 10s, min damage: 1.0 hearts)
+[20:23:11] [Server thread/INFO]: [nonchat] Services reloaded successfully
+[20:23:18] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : JAJA
+[20:23:25] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  Pilaw : q paso
+[20:23:26] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  ImNottVanxxz7 : bro
+[20:23:27] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  ImNottVanxxz7 : XD
+[20:23:33] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : Es un anuncio del plugin
+[20:23:34] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  Pilaw : ahh
+[20:23:35] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : mrd este gey no se conecta
+[20:23:53] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  ImNottVanxxz7 : si esta bacan
+[20:23:55] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  ImNottVanxxz7 : pero no baja nada
+[20:24:04] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  Pilaw : la idea no era matarte
+[20:24:06] [Server thread/INFO]: potato_JP10 has made the advancement [Suit Up]
+[20:24:09] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  ImNottVanxxz7 : estoy aca XD
+[20:24:13] [Server thread/INFO]: AL5PT issued server command: /lp group owner meta setprefix "&cOWNER "
+[20:24:13] [luckperms-command-executor/INFO]: [LP] LOG > (AL5PT) [G] (owner)
+[20:24:13] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &cOWNER 
+[20:24:15] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : a
+[20:24:24] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  ImNottVanxxz7 : pero igual se puede salvar
+[20:24:35] [Server thread/INFO]: urielargentino lost connection: Disconnected
+[20:24:35] [Server thread/INFO]: [voicechat] Disconnecting client urielargentino
+[20:24:35] [Server thread/INFO]: (-)  urielargentino 
+[20:24:38] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  ImNottVanxxz7 : mas alfondo seria con carteles
+[20:24:41] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : pasa que ese mensaje de 5 minutos era para cambiarlo
+[20:24:46] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : ya lo saque
+[20:24:50] [Server thread/INFO]: leoproo34 issued server command: /tpa potato_JP10
+[20:24:51] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : me tcara ir a la trial solo porque este gey no se conecta
+[20:24:55] [Server thread/INFO]: potato_JP10 issued server command: /huskhomes:tpaccept leoproo34
+[20:25:00] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  ImNottVanxxz7 : bueno quieres ver mi base
+[20:25:02] [Server thread/INFO]: AL5PT issued server command: /bc a
+[20:25:02] [Server thread/INFO]: 
+Administracion: a
+
+[20:25:05] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  ImNottVanxxz7 : lo estoy asiendo recien
+[20:25:09] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  Pilaw : ahora vuelvo
+[20:25:10] [Server thread/INFO]: Pilaw lost connection: Disconnected
+[20:25:10] [Server thread/INFO]: [voicechat] Disconnecting client Pilaw
+[20:25:10] [Server thread/INFO]: (-)  Pilaw 
+[20:25:14] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[20:25:16] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[20:25:27] [Server thread/INFO]: AL5PT issued server command: /bc Prueba PruebaPrueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba
+[20:25:27] [Server thread/INFO]: 
+Administracion: Prueba PruebaPrueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba Prueba
+
+[20:25:29] [Server thread/INFO]: stevencastro123 issued server command: /home trial
+[20:25:31] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : yaa
+[20:25:33] [Server thread/INFO]: stevencastro123 issued server command: /home trial
+[20:25:34] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  leoproo34 : ok
+[20:25:43] [User Authenticator #5/INFO]: UUID of player Pilaw is 5028f6a4-2ce5-3d94-9a48-12a28e950414
+[20:25:44] [Server thread/INFO]: (+)  Pilaw 
+[20:25:44] [Server thread/INFO]: Pilaw[/127.176.211.68:54963] logged in with entity id 34763 at ([world]-914.7888255317716, 64.0, -833.8306322993005)
+[20:25:44] [Server thread/INFO]: [voicechat] Received secret request of Pilaw (20)
+[20:25:44] [Server thread/INFO]: [voicechat] Sent secret to Pilaw
+[20:25:51] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : quita el anti xray we
+[20:25:51] [Server thread/INFO]: Pilaw issued server command: /login
+[20:25:51] [Folia Async Scheduler Thread #0/INFO]: [nLogin] The user Pilaw has successfully logged in.
+[20:25:57] [Server thread/INFO]: Pilaw lost connection: Disconnected
+[20:25:57] [Server thread/INFO]: [voicechat] Disconnecting client Pilaw
+[20:25:57] [Server thread/INFO]: (-)  Pilaw 
+[20:26:01] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : ese we
+[20:26:03] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  AL5PT : xD
+[20:26:06] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : mrd
+[20:26:19] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : vi a alguien
+[20:26:28] [ForkJoinPool.commonPool-worker-2/INFO]: (G)  stevencastro123 : aa era mi chat xd
+[20:27:51] [Server thread/INFO]: stevencastro123 issued server command: /home trial
+[20:28:11] [Server thread/INFO]: AL5PT issued server command: /nonchat reload
+[20:28:11] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:28:11] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:28:11] [Server thread/INFO]: [nonchat] Configuration reloaded successfully
+[20:28:11] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:28:11] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:28:11] [Server thread/INFO]: [nonchat] Deaths.yml is up to date, no changes needed
+[20:28:11] [Server thread/INFO]: [nonchat] Death messages configuration loaded successfully
+[20:28:11] [Server thread/INFO]: [nonchat] Damage tracking listener re-registered (window: 10s, min damage: 1.0 hearts)
+[20:28:11] [Server thread/INFO]: [nonchat] Services reloaded successfully
+[20:28:29] [Server thread/INFO]: AL5PT issued server command: /tp stevencastro123
+[20:28:40] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  stevencastro123 : oye
+[20:28:44] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : dime
+[20:28:45] [Server thread/INFO]: ImNottVanxxz7 issued server command: /pv 1
+[20:28:50] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  stevencastro123 : por aca cerca ay una trial me dices donde plis?
+[20:28:53] [Server thread/INFO]: AL5PT issued server command: /pv 1
+[20:29:01] [Server thread/INFO]: AL5PT issued server command: /gamemode spectator
+[20:29:01] [Server thread/INFO]: [AL5PT: Set own game mode to Spectator Mode]
+[20:29:17] [Server thread/INFO]: ⚔ potato_JP10 lost a fight with leoproo34
+[20:29:17] [Server thread/INFO]: AL5PT issued server command: /gamemode creative
+[20:29:17] [Server thread/INFO]: [AL5PT: Set own game mode to Creative Mode]
+[20:29:21] [Server thread/INFO]: potato_JP10 issued server command: /huskhomes:back
+[20:29:29] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  stevencastro123 : esto?
+[20:29:34] [Server thread/INFO]: AL5PT issued server command: /gamemode spectator
+[20:29:34] [Server thread/INFO]: [AL5PT: Set own game mode to Spectator Mode]
+[20:29:34] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  stevencastro123 : a si gracias
+[20:29:48] [Server thread/INFO]: AL5PT issued server command: /gamemode creative
+[20:29:48] [Server thread/INFO]: [AL5PT: Set own game mode to Creative Mode]
+[20:30:07] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : bonita base
+[20:30:10] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : que haces aca XD
+[20:30:12] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : ta oscuro
+[20:30:18] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : NO?
+[20:30:18] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : revisando xD
+[20:30:31] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : dame lamparas
+[20:30:34] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : tienes el full bright?
+[20:30:41] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : como brigt
+[20:30:47] [User Authenticator #6/INFO]: UUID of player Pilaw is 5028f6a4-2ce5-3d94-9a48-12a28e950414
+[20:30:48] [Server thread/INFO]: (+)  Pilaw 
+[20:30:48] [Server thread/INFO]: Pilaw[/127.176.211.68:59313] logged in with entity id 37871 at ([world]-915.7624999880791, 65.125, -810.8625000119209)
+[20:30:48] [Server thread/INFO]: [voicechat] Received secret request of Pilaw (20)
+[20:30:48] [Server thread/INFO]: [voicechat] Sent secret to Pilaw
+[20:30:51] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : hay un mod que es de iluminacion
+[20:30:53] [Server thread/INFO]: Pilaw issued server command: /login
+[20:30:53] [Folia Async Scheduler Thread #0/INFO]: [nLogin] The user Pilaw has successfully logged in.
+[20:31:02] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : no solo asi oscuro xd
+[20:31:07] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : pero me das lamparas
+[20:31:16] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : un buen par
+[20:31:19] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : con el brilo de mi compu estoy XD
+[20:31:28] [Server thread/INFO]: Pilaw issued server command: /tpa ImNottVanxxz7
+[20:31:34] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : buena base
+[20:31:35] [Server thread/INFO]: ImNottVanxxz7 issued server command: /huskhomes:tpaccept Pilaw
+[20:31:43] [Server thread/INFO]: Villager Villager['Villager'/9975, uuid='9c7f8a0a-9458-46ba-8eb2-92548177a08d', l='ServerLevel[world]', x=1320.49, y=63.00, z=10983.32, cpos=[82, 686], tl=65520, v=true] died, message: 'Villager was slain by Zombie'
+[20:31:57] [Server thread/INFO]: AL5PT issued server command: /vanish
+[20:32:02] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : tenes otro?
+[20:32:10] [Server thread/INFO]: AL5PT issued server command: /tp potato_JP10
+[20:32:17] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  potato_JP10 : hola
+[20:32:17] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : buenas
+[20:32:18] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  stevencastro123 : conductividad es bueno?
+[20:32:22] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : bonita base
+[20:32:23] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : tenes mesa de encantamientos?
+[20:32:27] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  leoproo34 : dios?
+[20:32:30] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  potato_JP10 : eres dios?
+[20:32:42] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : algo asi
+[20:32:52] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  potato_JP10 : nos das diamantes?
+[20:32:59] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : no
+[20:33:03] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  leoproo34 : xd
+[20:33:06] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  potato_JP10 : pls
+[20:33:08] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : dios no haria eso
+[20:33:16] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  potato_JP10 : simpre te reso
+[20:33:43] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : ojo se matan a su aldeano
+[20:33:49] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : baan
+[20:33:51] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : bacan
+[20:33:52] [ForkJoinPool.commonPool-worker-5/INFO]: (G)  leoproo34 : donde
+[20:34:04] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : no no ya lo mataste al zombi
+[20:34:14] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : en fin
+[20:34:50] [Server thread/INFO]: AL5PT issued server command: /gamemode spectator
+[20:34:50] [Server thread/INFO]: [AL5PT: Set own game mode to Spectator Mode]
+[20:34:59] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : bueno ya serian todos
+[20:35:01] [Server thread/INFO]: AL5PT issued server command: /gamemode creative
+[20:35:01] [Server thread/INFO]: [AL5PT: Set own game mode to Creative Mode]
+[20:35:03] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : A xd
+[20:35:05] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  potato_JP10 : dios nos das la biblia?
+[20:35:13] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  AL5PT : ok
+[20:35:13] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : ay voy a aser el portal
+[20:35:14] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : XD
+[20:35:21] [Server thread/WARN]: ImNottVanxxz7 moved wrongly!
+[20:35:31] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  potato_JP10 : adame
+[20:35:40] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  stevencastro123 : tengo mal presagio
+[20:35:41] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : veni
+[20:35:53] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : aca se sale y entra
+[20:36:02] [User Authenticator #7/INFO]: UUID of player urielargentino is c42aa533-4a63-39c7-b61e-ae455217be72
+[20:36:03] [Server thread/INFO]: (+)  urielargentino 
+[20:36:03] [Server thread/INFO]: urielargentino[/127.132.2.213:46265] logged in with entity id 40573 at ([world]-3150.6781557379854, 72.0, -2827.3513478536524)
+[20:36:03] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : vamos por obsidiana
+[20:36:06] [Server thread/INFO]: potato_JP10 issued server command: /m ImNottVanxxz7 realmete me quiere matar
+[20:36:13] [Server thread/INFO]: urielargentino issued server command: /login
+[20:36:13] [Server thread/INFO]: urielargentino lost connection: La contraseña ingresada es incorrecta.
+[20:36:13] [Server thread/INFO]: [voicechat] Disconnecting client urielargentino
+[20:36:13] [Server thread/INFO]: (-)  urielargentino 
+[20:36:14] [ForkJoinPool.commonPool-worker-4/INFO]: (G)  ImNottVanxxz7 : potato_JP10 q
+[20:36:16] [User Authenticator #7/INFO]: UUID of player urielargentino is c42aa533-4a63-39c7-b61e-ae455217be72
+[20:36:17] [Server thread/INFO]: (+)  urielargentino 
+[20:36:17] [Server thread/INFO]: urielargentino[/127.132.2.213:59171] logged in with entity id 40971 at ([world]-3150.6781557379854, 72.0, -2827.3513478536524)
+[20:36:21] [Server thread/WARN]: AL5PT moved too quickly! 9.804029245592574,0.0,-2.237233676127289
+[20:36:22] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : mlp araña me hizo 360
+[20:36:22] [Server thread/INFO]: urielargentino issued server command: /login
+[20:36:23] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user urielargentino has successfully logged in.
+[20:36:26] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  AL5PT : ese lag
+[20:36:38] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  AL5PT : cuantas biblias quieres
+[20:36:42] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  leoproo34 : 2
+[20:36:44] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  potato_JP10 : 5
+[20:36:54] [Server thread/INFO]: ImNottVanxxz7 has made the advancement [Ice Bucket Challenge]
+[20:36:56] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  AL5PT : ahi tienes un par
+[20:37:16] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : 14 hay que conseguir
+[20:37:20] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  Pilaw : ok
+[20:37:23] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  potato_JP10 : vendo biblias a 2 diamonds
+[20:37:26] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  AL5PT : alguien quiere una biblia?
+[20:37:32] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : faltan 8
+[20:37:33] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  urielargentino : q
+[20:37:37] [Server thread/INFO]: AL5PT issued server command: /tp urielargentino
+[20:38:11] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : tenes 1?
+[20:38:11] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  urielargentino : ouuuu
+[20:38:17] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : vamos
+[20:38:24] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : tenes 1 libro?
+[20:39:00] [Server thread/INFO]: AL5PT issued server command: /spy
+[20:39:06] [Server thread/INFO]: AL5PT issued server command: /tp stevencastro123
+[20:39:09] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : tenes 1 libro
+[20:39:22] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : no pero XD
+[20:39:24] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  Pilaw : desencanta ese
+[20:39:40] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  AL5PT : esta en busca del mazo
+[20:40:20] [Server thread/INFO]: Pilaw issued server command: /sethome base
+[20:40:24] [Server thread/INFO]: Pilaw issued server command: /home 131
+[20:40:26] [Server thread/INFO]: Pilaw issued server command: /home 131
+[20:40:30] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : como salimos?
+[20:40:33] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : mira
+[20:40:41] [Server thread/INFO]: AL5PT issued server command: /tp Pilaw
+[20:40:41] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[20:40:45] [Server thread/INFO]: Pilaw issued server command: /home base
+[20:40:59] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : donde esta
+[20:41:28] [Server thread/INFO]: leoproo34 issued server command: /tpa urielargentino
+[20:41:36] [Server thread/INFO]: urielargentino issued server command: /huskhomes:tpaccept leoproo34
+[20:41:42] [Server thread/INFO]: leoproo34 issued server command: /tpa urielargentino
+[20:41:45] [Server thread/INFO]: urielargentino issued server command: /huskhomes:tpaccept leoproo34
+[20:42:20] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : no hay para desancantara
+[20:42:22] [ForkJoinPool.commonPool-worker-6/INFO]: §#FFAFFB[nonchat] ImNottVanxxz7 detectó spam similar: §#ff0000no hay para desancantar
+[20:42:24] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : omg
+[20:42:25] [ForkJoinPool.commonPool-worker-6/INFO]: §#FFAFFB[nonchat] ImNottVanxxz7 detectó spam similar: §#ff0000no hay para desancantar,
+[20:42:27] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : no hay para desancantar, dire
+[20:42:31] [Server thread/INFO]:  leoproo34 was slain by Zombie
+[20:42:34] [Server thread/INFO]: leoproo34 issued server command: /huskhomes:back
+[20:42:36] [Server thread/INFO]: potato_JP10 issued server command: /tpa leoproo34
+[20:42:37] [Server thread/INFO]: stevencastro123 has reached the goal [Revaulting]
+[20:42:39] [Server thread/INFO]: AL5PT issued server command: /lp group owner meta setprefix "&4&lOWNER "
+[20:42:39] [luckperms-command-executor/INFO]: [LP] LOG > (AL5PT) [G] (owner)
+[20:42:39] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &4&lOWNER 
+[20:42:41] [Server thread/INFO]: leoproo34 issued server command: /huskhomes:tpaccept potato_JP10
+[20:42:41] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  AL5PT : a
+[20:42:58] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  Pilaw : si que hay
+[20:43:21] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : nah
+[20:43:21] [Server thread/INFO]:  potato_JP10 was slain by urielargentino
+[20:43:23] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : no me salio
+[20:43:26] [Server thread/INFO]: leoproo34 has made the advancement [Suit Up]
+[20:43:35] [Server thread/INFO]: potato_JP10 issued server command: /back
+[20:43:39] [Server thread/INFO]: AL5PT issued server command: /lp user AL5PT parent set owner
+[20:43:39] [luckperms-command-executor/INFO]: [LP] LOG > (AL5PT) [U] (al5pt)
+[20:43:39] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
+[20:43:40] [ForkJoinPool.commonPool-worker-6/INFO]: (G) OWNER  AL5PT : a
+[20:44:10] [Server thread/INFO]: AL5PT issued server command: /lp group owner meta setprefix "&4&lOWNER&f"
+[20:44:10] [luckperms-command-executor/INFO]: [LP] LOG > (AL5PT) [G] (owner)
+[20:44:10] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &4&lOWNER&f
+[20:44:11] [ForkJoinPool.commonPool-worker-6/INFO]: (G) OWNER AL5PT : a
+[20:44:15] [ForkJoinPool.commonPool-worker-6/INFO]: (G) OWNER AL5PT : ahora si
+[20:44:26] [Server thread/INFO]: AL5PT issued server command: /lp group owner meta setprefix "&4&lOWNER&f "
+[20:44:26] [luckperms-command-executor/INFO]: [LP] LOG > (AL5PT) [G] (owner)
+[20:44:26] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &4&lOWNER&f 
+[20:44:28] [ForkJoinPool.commonPool-worker-6/INFO]: (G) OWNER  AL5PT : a
+[20:44:33] [Server thread/INFO]: potato_JP10 issued server command: /back
+[20:44:43] [Server thread/INFO]: potato_JP10 issued server command: /back
+[20:45:04] [Server thread/INFO]: AL5PT issued server command: /lp creategroup admin
+[20:45:04] [luckperms-command-executor/INFO]: [LP] LOG > (AL5PT) [G] (admin)
+[20:45:04] [luckperms-command-executor/INFO]: [LP] LOG > create
+[20:45:06] [Server thread/INFO]: AL5PT issued server command: /lp group admin meta setprefix "&e&lADMIN&f"
+[20:45:06] [luckperms-command-executor/INFO]: [LP] LOG > (AL5PT) [G] (admin)
+[20:45:06] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &e&lADMIN&f
+[20:45:11] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : AL5PT ayuda
+[20:45:14] [Server thread/INFO]: potato_JP10 lost connection: Disconnected
+[20:45:14] [Server thread/INFO]: [voicechat] Disconnecting client potato_JP10
+[20:45:14] [Server thread/INFO]: (-)  potato_JP10 
+[20:45:21] [Server thread/INFO]: AL5PT issued server command: /lp user AL5PT parent set admin
+[20:45:21] [luckperms-command-executor/INFO]: [LP] LOG > (AL5PT) [U] (al5pt)
+[20:45:21] [luckperms-command-executor/INFO]: [LP] LOG > parent set admin
+[20:45:22] [ForkJoinPool.commonPool-worker-6/INFO]: (G) ADMIN AL5PT : a
+[20:45:25] [ForkJoinPool.commonPool-worker-6/INFO]: (G) ADMIN AL5PT : que paso
+[20:45:29] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : aca que hago
+[20:45:34] [Server thread/INFO]: AL5PT issued server command: /lp group admin meta setprefix "&e&lADMIN&f "
+[20:45:34] [luckperms-command-executor/INFO]: [LP] LOG > (AL5PT) [G] (admin)
+[20:45:34] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &e&lADMIN&f 
+[20:45:36] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[20:45:42] [Server thread/INFO]: AL5PT issued server command: /tp stevencastro123
+[20:45:48] [ForkJoinPool.commonPool-worker-6/INFO]: (G) ADMIN  AL5PT : ns
+[20:46:09] [ForkJoinPool.commonPool-worker-6/INFO]: (G) ADMIN  AL5PT : a que te refieres con que hacer
+[20:46:15] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : pilaw listo
+[20:46:19] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : dime quien me dispara el de las pots
+[20:46:27] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : me anda jodiendo hace rato
+[20:46:28] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : q
+[20:46:29] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : XD
+[20:46:46] [ForkJoinPool.commonPool-worker-6/INFO]: (G) ADMIN  AL5PT : el de las wind
+[20:46:55] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : donde ç
+[20:46:59] [Server thread/INFO]: AL5PT issued server command: /gamemode spectator
+[20:46:59] [Server thread/INFO]: [AL5PT: Set own game mode to Spectator Mode]
+[20:47:08] [ForkJoinPool.commonPool-worker-6/INFO]: (G) ADMIN  AL5PT : es invisible al parecer
+[20:47:18] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  Pilaw : listo
+[20:47:26] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : lo mataste?
+[20:47:26] [ForkJoinPool.commonPool-worker-6/INFO]: (G) ADMIN  AL5PT : ta raro eso
+[20:47:29] [ForkJoinPool.commonPool-worker-6/INFO]: (G) ADMIN  AL5PT : no
+[20:47:38] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : estara arriba?
+[20:47:39] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : buena :D
+[20:47:42] [ForkJoinPool.commonPool-worker-6/INFO]: (G) ADMIN  AL5PT : esta afuera
+[20:47:49] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : dnde
+[20:48:07] [Server thread/INFO]: AL5PT issued server command: /tp stevencastro123 AL5PT
+[20:48:22] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : thanks
+[20:48:36] [Server thread/INFO]: stevencastro123 issued server command: /back
+[20:48:51] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : pero sigue
+[20:48:56] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : no veo nda y siguen
+[20:49:04] [Server thread/INFO]: AL5PT issued server command: /gamemode creative
+[20:49:04] [Server thread/INFO]: [AL5PT: Set own game mode to Creative Mode]
+[20:49:11] [ForkJoinPool.commonPool-worker-6/INFO]: (G) ADMIN  AL5PT : que extraño
+[20:49:35] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : aa ya
+[20:49:53] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : se supone que ya
+[20:50:05] [Server thread/INFO]: leoproo34 issued server command: /tpa urielargentino
+[20:50:13] [Server thread/INFO]: urielargentino issued server command: /msg leoproo34 llamada?
+[20:50:18] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : mrd pero que
+[20:50:23] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  leoproo34 : si
+[20:50:26] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : voy a buscar comida XD
+[20:50:37] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : xd
+[20:50:56] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : voy a buscar libros y comida
+[20:51:06] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : bacan XD
+[20:51:07] [Server thread/INFO]: AL5PT issued server command: /customdisc create https://www.youtube.com/watch?v=qLsFWXJmKU8&list=RDqLsFWXJmKU8&start_radio=1 Olimpo Stereo
+[20:51:07] [Server thread/INFO]: [URLCustomDiscs] Generated customModelData: 2401200
+[20:51:08] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : tanto para solo patata?
+[20:51:21] [Server thread/INFO]: ⚔ urielargentino lost a fight with Zombie
+[20:51:24] [Server thread/INFO]: urielargentino issued server command: /huskhomes:back
+[20:51:25] [Server thread/INFO]: AL5PT issued server command: /plugins
+[20:51:28] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : a nooo
+[20:51:29] [Server thread/WARN]: [URLCustomDiscs] [API ERROR] Resource pack already contains 10 custom discs.
+[20:51:31] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  stevencastro123 : una llave pro
+[20:51:35] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  Pilaw : sacate los pantalones
+[20:51:40] [ForkJoinPool.commonPool-worker-6/INFO]: (G)  ImNottVanxxz7 : xd?
+[20:51:42] [Server thread/INFO]: AL5PT issued server command: /customdisc list
+[20:51:49] [Server thread/INFO]: urielargentino issued server command: /tpaccept
+[20:51:49] [Server thread/INFO]: AL5PT issued server command: /customdisc delete a
+[20:51:53] [Server thread/INFO]: [URLCustomDiscs] [API SUCCESS] Disc "a" deleted successfully.
+[20:51:58] [Server thread/INFO]: leoproo34 issued server command: /tpa urielargentino
+[20:52:03] [Server thread/INFO]: urielargentino issued server command: /tpaccept
+[20:52:05] [Server thread/INFO]: AL5PT issued server command: /customdisc create https://www.youtube.com/watch?v=qLsFWXJmKU8&list=RDqLsFWXJmKU8&start_radio=1 Olimpo stereo
+[20:52:05] [Server thread/INFO]: [URLCustomDiscs] Generated customModelData: 4743600
+[20:52:32] [Server thread/INFO]: [URLCustomDiscs] [API SUCCESS] Disc "olimpo" created successfully.
+[20:52:40] [ForkJoinPool.commonPool-worker-5/INFO]: (G)  stevencastro123 : admin
+[20:52:45] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg Pilaw vamos ala strongol para los libros
+[20:52:54] [Server thread/INFO]: Pilaw issued server command: /home end
+[20:52:56] [ForkJoinPool.commonPool-worker-5/INFO]: (G)  Pilaw : tpeate
+[20:53:05] [ForkJoinPool.commonPool-worker-5/INFO]: (G)  ImNottVanxxz7 : no tengo tpa ala strongol
+[20:53:08] [ForkJoinPool.commonPool-worker-5/INFO]: (G)  Pilaw : yo si
+[20:53:10] [Server thread/INFO]: ImNottVanxxz7 issued server command: /tpa Pilaw
+[20:53:11] [ForkJoinPool.commonPool-worker-5/INFO]: (G)  Pilaw : tepeate a mi
+[20:53:11] [ForkJoinPool.commonPool-worker-5/INFO]: (G)  ImNottVanxxz7 : aver
+[20:53:12] [Server thread/INFO]: Pilaw issued server command: /huskhomes:tpaccept ImNottVanxxz7
+[20:53:24] [ForkJoinPool.commonPool-worker-7/INFO]: (G)  ImNottVanxxz7 : bien
+[20:53:46] [ForkJoinPool.commonPool-worker-7/INFO]: (G) ADMIN  AL5PT : dime
+[20:53:59] [Server thread/INFO]: Showing new actionbar title for AL5PT
+[20:53:59] [Server thread/INFO]: Stopped sound 'minecraft:customdisc.olimpo'
+[20:54:05] [Server thread/INFO]: Showing new actionbar title for AL5PT
+[20:54:19] [Server thread/INFO]: ImNottVanxxz7 issued server command: /hom
+[20:54:21] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[20:54:30] [ForkJoinPool.commonPool-worker-7/INFO]: (G)  ImNottVanxxz7 : volvi ala base
+[20:54:33] [ForkJoinPool.commonPool-worker-7/INFO]: (G)  Pilaw : ok
+[20:54:55] [Server thread/INFO]: AL5PT issued server command: /customdisc list
+[20:55:10] [Server thread/INFO]: AL5PT issued server command: /customdisc give Nene_Malo
+[20:55:21] [Server thread/INFO]: Showing new actionbar title for AL5PT
+[20:55:21] [Server thread/INFO]: Stopped sound 'minecraft:customdisc.olimpo'
+[20:55:28] [Server thread/INFO]: Showing new actionbar title for AL5PT
+[20:55:28] [Server thread/WARN]: [URLCustomDiscs] Error intercepting system chat: class org.bukkit.craftbukkit.block.CraftBlockState cannot be cast to class org.bukkit.block.Jukebox (org.bukkit.craftbukkit.block.CraftBlockState and org.bukkit.block.Jukebox are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[20:55:51] [Server thread/INFO]: Pilaw issued server command: /home base
+[20:57:08] [ForkJoinPool.commonPool-worker-8/INFO]: (G)  ImNottVanxxz7 : XD
+[20:57:22] [ForkJoinPool.commonPool-worker-8/INFO]: (G) ADMIN  AL5PT : que es eso?
+[20:57:31] [Server thread/INFO]: leoproo34 lost connection: Disconnected
+[20:57:31] [Server thread/INFO]: [voicechat] Disconnecting client leoproo34
+[20:57:31] [Server thread/INFO]: (-)  leoproo34 
+[20:57:32] [ForkJoinPool.commonPool-worker-10/INFO]: (G)  ImNottVanxxz7 : y la lapilasule
+[20:59:29] [Server thread/INFO]: AL5PT issued server command: /nonchat reload
+[20:59:29] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:59:29] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:59:29] [Server thread/INFO]: [nonchat] Configuration reloaded successfully
+[20:59:29] [Server thread/INFO]: [nonchat] Loaded 3 custom interactive placeholders from config
+[20:59:29] [Server thread/INFO]: [nonchat] Interactive placeholders reloaded successfully
+[20:59:29] [Server thread/INFO]: [nonchat] Deaths.yml is up to date, no changes needed
+[20:59:29] [Server thread/INFO]: [nonchat] Death messages configuration loaded successfully
+[20:59:29] [Server thread/INFO]: [nonchat] Damage tracking listener re-registered (window: 10s, min damage: 1.0 hearts)
+[20:59:29] [Server thread/INFO]: [nonchat] Services reloaded successfully
+[20:59:32] [ForkJoinPool.commonPool-worker-8/INFO]: (G) ADMIN  AL5PT : a
+[20:59:35] [ForkJoinPool.commonPool-worker-8/INFO]: (G)  urielargentino : b
+[20:59:40] [ForkJoinPool.commonPool-worker-8/INFO]: (G)  ImNottVanxxz7 : ya no tengo experiencia
+[21:00:21] [ForkJoinPool.commonPool-worker-8/INFO]: (G)  urielargentino : oveja rosa wacho
+[21:01:04] [Server thread/INFO]: ImNottVanxxz7 issued server command: /spawn
+[21:01:09] [ForkJoinPool.commonPool-worker-8/INFO]: (G)  ImNottVanxxz7 : ese es mi pico o que XD
+[21:01:30] [Server thread/INFO]: AL5PT issued server command: /invsee
+[21:02:12] [ForkJoinPool.commonPool-worker-9/INFO]: (G)  stevencastro123 : q pta
+[21:02:22] [Server thread/INFO]: Nothing changed. The player is not an operator
+[21:02:48] [Server thread/INFO]: Made AL5PT no longer a server operator
+[21:02:53] [Server thread/INFO]: AL5PT issued server command: /nonchat
+[21:02:58] [Server thread/INFO]: AL5PT issued server command: /roll
+[21:03:01] [Server thread/INFO]: AL5PT issued server command: /roll 67
+[21:03:01] [Server thread/INFO]: *AL5PT rolled a 43
+[21:03:06] [ForkJoinPool.commonPool-worker-9/INFO]: (G)  urielargentino : ?
+[21:03:07] [Server thread/INFO]: Pilaw issued server command: /roll
+[21:03:10] [Server thread/INFO]: Pilaw issued server command: /roll 10
+[21:03:10] [Server thread/INFO]: *Pilaw rolled a 9
+[21:03:18] [Server thread/INFO]: Pilaw issued server command: /roll 1
+[21:03:18] [Server thread/INFO]: *Pilaw rolled a 1
+[21:03:23] [Server thread/INFO]: Pilaw issued server command: /roll 10 15
+[21:03:24] [Server thread/INFO]: AL5PT issued server command: /roll 100
+[21:03:24] [Server thread/INFO]: *AL5PT rolled a 64
+[21:03:29] [Server thread/INFO]: Pilaw issued server command: /roll 1000000000000
+[21:03:31] [Server thread/INFO]: Pilaw issued server command: /roll 100000000
+[21:03:31] [Server thread/INFO]: *Pilaw rolled a 69370161
+[21:03:38] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg AL5PT me das experiencia y te doy diamantes? como un tradeo
+[21:03:41] [ForkJoinPool.commonPool-worker-9/INFO]: (G)  stevencastro123 : q es eso de rolled?
+[21:03:45] [ForkJoinPool.commonPool-worker-9/INFO]: (G)  Pilaw : nose
+[21:04:02] [ForkJoinPool.commonPool-worker-9/INFO]: (G) ADMIN  AL5PT : es un comando para un numero aleatorio
+[21:04:09] [ForkJoinPool.commonPool-worker-9/INFO]: (G)  stevencastro123 : aa
+[21:04:11] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg AL5PT me das experiencia y te doy diamantes? como un tradeo si o no
+[21:04:14] [ForkJoinPool.commonPool-worker-9/INFO]: (G) ADMIN  AL5PT : eso viene con algo que meti pero no es por eso
+[21:04:19] [Server thread/INFO]: AL5PT issued server command: /msg ImNottVanxxz7 no puedo
+[21:04:20] [Server thread/INFO]: urielargentino issued server command: /roll
+[21:04:23] [Server thread/INFO]: urielargentino issued server command: /roll 1
+[21:04:23] [Server thread/INFO]: *urielargentino rolled a 1
+[21:04:31] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg AL5PT ok gracias
+[21:04:44] [ForkJoinPool.commonPool-worker-9/INFO]: (G) ADMIN  AL5PT : pero no hace nada importante mas que decir un nombre aleatorio
+[21:04:58] [Server thread/INFO]: Made AL5PT a server operator
+[21:05:16] [Server thread/INFO]: AL5PT issued server command: /gamemode spectator
+[21:05:16] [Server thread/INFO]: [AL5PT: Set own game mode to Spectator Mode]
+[21:05:17] [Server thread/INFO]: AL5PT issued server command: /gamemode survival
+[21:05:17] [Server thread/INFO]: [AL5PT: Set own game mode to Survival Mode]
+[21:05:36] [Server thread/INFO]: Pilaw issued server command: /home 131
+[21:05:42] [Server thread/INFO]: AL5PT issued server command: /experience add AL5PT 999999999 levels
+[21:05:42] [Server thread/INFO]: [AL5PT: Gave 999999999 experience levels to AL5PT]
+[21:05:47] [ForkJoinPool.commonPool-worker-11/INFO]: (G) ADMIN  AL5PT : perfecto
+[21:06:09] [Server thread/INFO]: Pilaw issued server command: /home base
+[21:06:21] [Server thread/INFO]: AL5PT lost connection: Timed out
+[21:06:21] [Server thread/INFO]: [voicechat] Disconnecting client AL5PT
+[21:06:21] [Server thread/INFO]: (-) ADMIN  AL5PT 
+[21:07:01] [Server thread/INFO]: Pilaw issued server command: /home base
+[21:07:03] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[21:07:10] [Server thread/INFO]: Pilaw issued server command: /home 131
+[21:09:22] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg Pilaw voy a tapar el portal XD
+[21:09:52] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg Pilaw Esta muy libre cualquiera lo ve
+[21:09:59] [Server thread/INFO]: Pilaw issued server command: /r ok
+[21:10:29] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : njd
+[21:10:49] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : 2 trials y nada
+[21:11:10] [User Authenticator #8/INFO]: UUID of player AL5PT is 3678aaa4-193c-3005-aadb-5e617b75fe27
+[21:11:11] [Server thread/INFO]: (+) ADMIN  AL5PT 
+[21:11:11] [Server thread/INFO]: AL5PT[/127.125.143.250:38219] logged in with entity id 67603 at ([world]2020.6250786995304, 106.0, 11333.177261444496)
+[21:11:14] [Server thread/INFO]: stevencastro123 issued server command: /home invasion
+[21:11:18] [Server thread/INFO]: AL5PT issued server command: /login
+[21:11:19] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user AL5PT has successfully logged in.
+[21:11:30] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  urielargentino : ivan bro
+[21:11:33] [ForkJoinPool.commonPool-worker-13/INFO]: (G) ADMIN  AL5PT : dime
+[21:11:44] [Server thread/INFO]: AL5PT issued server command: /huskhomes reload
+[21:11:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: huskhomes [4.10]
+[21:11:44] [Server thread/INFO]: [HuskHomes] Registered 'on_enable & after_load' hooks
+[21:11:48] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  urielargentino : a nada ya me lo respondiste antes
+[21:11:50] [Server thread/INFO]: urielargentino has made the advancement [Sweet Dreams]
+[21:11:57] [Server thread/INFO]: AL5PT issued server command: /home
+[21:12:02] [Server thread/INFO]: AL5PT issued server command: /tp urielargentino
+[21:12:04] [ForkJoinPool.commonPool-worker-13/INFO]: (G) ADMIN  AL5PT : uff
+[21:12:19] [Server thread/INFO]: AL5PT issued server command: /gamemode creative
+[21:12:19] [Server thread/INFO]: [AL5PT: Set own game mode to Creative Mode]
+[21:12:21] [Server thread/INFO]: AL5PT issued server command: /god
+[21:12:21] [Server thread/INFO]: AL5PT issued server command: /gamemode survival
+[21:12:21] [Server thread/INFO]: [AL5PT: Set own game mode to Survival Mode]
+[21:12:25] [Server thread/INFO]: AL5PT issued server command: /god
+[21:12:33] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  urielargentino : lo de invitar a gente era
+[21:12:40] [ForkJoinPool.commonPool-worker-13/INFO]: (G) ADMIN  AL5PT : bueno
+[21:12:41] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : AL5PT me toco irme porque no encontre nda
+[21:12:53] [Server thread/INFO]: AL5PT issued server command: /gamemode creative
+[21:12:53] [Server thread/INFO]: [AL5PT: Set own game mode to Creative Mode]
+[21:12:56] [Server thread/INFO]: AL5PT issued server command: /gamemode survival
+[21:12:56] [Server thread/INFO]: [AL5PT: Set own game mode to Survival Mode]
+[21:13:12] [ForkJoinPool.commonPool-worker-13/INFO]: (G) ADMIN  AL5PT : no me hacen nada :v
+[21:13:20] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : r
+[21:13:36] [Server thread/WARN]: Pilaw moved wrongly!
+[21:13:37] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  urielargentino : pero ahora va a ser un streamer
+[21:13:50] [ForkJoinPool.commonPool-worker-13/INFO]: (G) ADMIN  AL5PT : quien
+[21:14:16] [Server thread/INFO]: AL5PT issued server command: /tp stevencastro123
+[21:14:22] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : ?
+[21:14:24] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  urielargentino : un streamer de twitch que veo si quiere jugar el servidor
+[21:14:25] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : ven
+[21:14:31] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : acompañame a esta travesia
+[21:14:31] [ForkJoinPool.commonPool-worker-13/INFO]: (G) ADMIN  AL5PT : aah
+[21:14:43] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : ven
+[21:15:00] [ForkJoinPool.commonPool-worker-13/INFO]: (G) ADMIN  AL5PT : porque no mejor hacer equipo con la persona de la base
+[21:15:07] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : me cae mal
+[21:15:11] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : me mato una vez
+[21:15:31] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : cuando yo tenia full iron
+[21:15:31] [ForkJoinPool.commonPool-worker-13/INFO]: (G) ADMIN  AL5PT : te van a odiar
+[21:15:42] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[21:15:49] [Server thread/INFO]: AL5PT issued server command: /tp ImNottVanxxz7
+[21:15:56] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  ImNottVanxxz7 : ei ei
+[21:15:59] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  ImNottVanxxz7 : q ases
+[21:15:59] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : solo le voy a matar a 2 porque los otros me los roblo con mi grupo
+[21:16:03] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : ´
+[21:16:06] [ForkJoinPool.commonPool-worker-13/INFO]: (G) ADMIN  AL5PT : robando
+[21:16:08] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  ImNottVanxxz7 : XD
+[21:16:09] [ForkJoinPool.commonPool-worker-13/INFO]: (G) ADMIN  AL5PT : nah mentira jaj
+[21:16:18] [Server thread/INFO]: Villager Villager['Fletcher'/67934, uuid='c6beb6b2-4cbf-4c30-a6ab-7ecfc50559ea', l='ServerLevel[world]', x=-150.50, y=68.00, z=10962.75, cpos=[-10, 685], tl=191666, v=true] died, message: 'Fletcher was slain by stevencastro123'
+[21:16:23] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  ImNottVanxxz7 : dios da pan el que tiene hambre
+[21:16:23] [ForkJoinPool.commonPool-worker-13/INFO]: (G) ADMIN  AL5PT : esque vi en la consola que hiciste home
+[21:16:26] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  ImNottVanxxz7 : no tengo comida
+[21:16:29] [Server thread/INFO]: Villager Villager['Fletcher'/67933, uuid='fbec08a4-faf4-43bc-a3ee-8e30f67f683a', l='ServerLevel[world]', x=-154.99, y=68.00, z=10954.53, cpos=[-10, 684], tl=186422, v=true] died, message: 'Fletcher was slain by stevencastro123'
+[21:16:35] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : ya
+[21:16:37] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  ImNottVanxxz7 : no el que no tiene hambre XD
+[21:16:37] [Server thread/INFO]: AL5PT issued server command: /gamemode creative
+[21:16:37] [Server thread/INFO]: [AL5PT: Set own game mode to Creative Mode]
+[21:16:44] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  ImNottVanxxz7 : tengo hambre
+[21:16:55] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : xdd
+[21:16:57] [ForkJoinPool.commonPool-worker-13/INFO]: (G) ADMIN  AL5PT : vino
+[21:17:00] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  ImNottVanxxz7 : broo
+[21:17:02] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : ayudaç
+[21:17:05] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  stevencastro123 : ayudaaaa
+[21:17:06] [ForkJoinPool.commonPool-worker-13/INFO]: (G)  ImNottVanxxz7 : aa
+[21:17:10] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  ImNottVanxxz7 : mira
+[21:17:24] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : AL5PT exploto 1 creeper
+[21:17:30] [ForkJoinPool.commonPool-worker-15/INFO]: (G) ADMIN  AL5PT : buen trabajo
+[21:17:39] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  ImNottVanxxz7 : chau dios
+[21:17:41] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : se hara de dia ayudaaaaa
+[21:17:46] [ForkJoinPool.commonPool-worker-15/INFO]: (G) ADMIN  AL5PT : nos vemos brother
+[21:17:53] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : ya
+[21:18:25] [ForkJoinPool.commonPool-worker-15/INFO]: (G) ADMIN  AL5PT : el tiempo se congelara en algun momento
+[21:18:31] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : vanessa
+[21:18:56] [Server thread/INFO]: AL5PT issued server command: /tp urielargentino
+[21:19:03] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : vanessa me acompañas al nether?
+[21:19:18] [ForkJoinPool.commonPool-worker-15/INFO]: (G) ADMIN  AL5PT : amen
+[21:19:23] [Server thread/INFO]: AL5PT issued server command: /tp stevencastro123
+[21:19:23] [Server thread/INFO]: stevencastro123 issued server command: /rtp
+[21:19:42] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : amen
+[21:19:54] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : vanessa
+[21:20:02] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : ven toma
+[21:20:09] [ForkJoinPool.commonPool-worker-15/INFO]: (G) ADMIN  AL5PT : quien es vanessa
+[21:20:15] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : tu w
+[21:20:18] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : que es esto
+[21:20:48] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : aa
+[21:21:07] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : ven
+[21:21:16] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : te las regalo
+[21:21:23] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : pa que se las des a alguien
+[21:21:28] [ForkJoinPool.commonPool-worker-15/INFO]: (G) ADMIN  AL5PT : ok
+[21:21:33] [Server thread/INFO]: AL5PT issued server command: /tp urielargentino
+[21:21:43] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  urielargentino : ala
+[21:21:44] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : daselo a pilaw
+[21:21:47] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : o urielargentino
+[21:21:48] [Server thread/INFO]: AL5PT issued server command: /tp Pilaw
+[21:21:54] [Server thread/INFO]: urielargentino lost connection: Disconnected
+[21:21:54] [Server thread/INFO]: [voicechat] Disconnecting client urielargentino
+[21:21:54] [Server thread/INFO]: (-)  urielargentino 
+[21:21:56] [Server thread/INFO]: AL5PT issued server command: /tp ImNottVanxxz7
+[21:22:00] [Server thread/INFO]: AL5PT issued server command: /gamemode spectator
+[21:22:00] [Server thread/INFO]: [AL5PT: Set own game mode to Spectator Mode]
+[21:22:01] [Server thread/INFO]: AL5PT issued server command: /gamemode creative
+[21:22:01] [Server thread/INFO]: [AL5PT: Set own game mode to Creative Mode]
+[21:22:08] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  ImNottVanxxz7 : gracias
+[21:22:14] [ForkJoinPool.commonPool-worker-15/INFO]: (G) ADMIN  AL5PT : me sobraron 2
+[21:22:22] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  ImNottVanxxz7 : ok :D
+[21:22:24] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : AL5PT quedatelas xd
+[21:22:24] [ForkJoinPool.commonPool-worker-15/INFO]: (G) ADMIN  AL5PT : le di una a cada 1
+[21:22:31] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  ImNottVanxxz7 : AA
+[21:22:52] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  ImNottVanxxz7 : ya pense que soy tu favo
+[21:22:56] [ForkJoinPool.commonPool-worker-15/INFO]: §#FFAFFB[nonchat] ImNottVanxxz7 detectó spam similar: §#ff0000ya pense que soy tu favorito
+[21:22:59] [ForkJoinPool.commonPool-worker-15/INFO]: §#FFAFFB[nonchat] ImNottVanxxz7 detectó spam similar: §#ff0000ya pense que soy tu favorito XD
+[21:23:06] [ForkJoinPool.commonPool-worker-15/INFO]: (G) ADMIN  AL5PT : hey y eso que xD
+[21:23:08] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  ImNottVanxxz7 : XD
+[21:23:12] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  ImNottVanxxz7 : favorito ps XD
+[21:23:15] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : vanessa
+[21:23:22] [ForkJoinPool.commonPool-worker-15/INFO]: (G) ADMIN  AL5PT : que comando es ese para arreglarlo?
+[21:23:24] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : i can give me gold plis?
+[21:23:37] [ForkJoinPool.commonPool-worker-15/INFO]: (G) ADMIN  AL5PT : no puedo regalarle nada a nadie xd
+[21:23:51] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : lo se
+[21:23:55] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : pir
+[21:24:00] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : Pirlo
+[21:24:03] [ForkJoinPool.commonPool-worker-15/INFO]: (G)  stevencastro123 : digo Pilaw
+[21:24:06] [Server thread/INFO]: ImNottVanxxz7 issued server command: /HOME
+[21:24:10] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[21:24:50] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[21:25:19] [ForkJoinPool.commonPool-worker-14/INFO]: (G)  stevencastro123 : Pilaw
+[21:25:19] [Server thread/INFO]: AL5PT issued server command: /tp Pilaw
+[21:25:20] [ForkJoinPool.commonPool-worker-14/INFO]: (G)  Pilaw : q
+[21:25:27] [Server thread/INFO]: AL5PT issued server command: /tp ImNottVanxxz7
+[21:25:28] [ForkJoinPool.commonPool-worker-14/INFO]: (G)  stevencastro123 : me regalas oro?
+[21:25:31] [ForkJoinPool.commonPool-worker-14/INFO]: (G)  Pilaw : no
+[21:25:33] [ForkJoinPool.commonPool-worker-14/INFO]: (G)  ImNottVanxxz7 : gracias
+[21:25:36] [ForkJoinPool.commonPool-worker-14/INFO]: (G) ADMIN  AL5PT : te di otra porque me sobraron 2
+[21:25:40] [ForkJoinPool.commonPool-worker-14/INFO]: (G)  ImNottVanxxz7 : si soy tu favorito
+[21:25:42] [ForkJoinPool.commonPool-worker-14/INFO]: (G)  ImNottVanxxz7 : XD
+[21:25:48] [ForkJoinPool.commonPool-worker-14/INFO]: (G)  stevencastro123 : alguien me da oro?
+[21:25:52] [Server thread/INFO]: ImNottVanxxz7 issued server command: /spawn
+[21:25:57] [ForkJoinPool.commonPool-worker-14/INFO]: (G)  ImNottVanxxz7 : y q das
+[21:26:02] [ForkJoinPool.commonPool-worker-14/INFO]: (G) ADMIN  AL5PT : spam
+[21:26:37] [Server thread/INFO]: AL5PT issued server command: /warp menu
+[21:26:41] [Server thread/INFO]: AL5PT issued server command: /warps
+[21:26:45] [Server thread/INFO]: AL5PT issued server command: /spawn
+[21:27:05] [Server thread/INFO]: AL5PT issued server command: /kill AL5PT
+[21:27:05] [Server thread/INFO]: [AL5PT: Killed AL5PT]
+[21:27:09] [ForkJoinPool.commonPool-worker-16/INFO]: (G) ADMIN  AL5PT : aah verdad
+[21:27:12] [ForkJoinPool.commonPool-worker-16/INFO]: (G) ADMIN  AL5PT : ando modo dios
+[21:27:14] [Server thread/INFO]: AL5PT issued server command: /ungod
+[21:27:18] [Server thread/INFO]: AL5PT issued server command: /kill AL5PT
+[21:27:18] [Server thread/INFO]: ADMIN  AL5PT was killed by command
+[21:27:18] [Server thread/INFO]: [AL5PT: Killed AL5PT]
+[21:27:23] [ForkJoinPool.commonPool-worker-16/INFO]: (G) ADMIN  AL5PT : ahora si
+[21:27:31] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  stevencastro123 : a quien mataste
+[21:27:35] [ForkJoinPool.commonPool-worker-16/INFO]: (G) ADMIN  AL5PT : ami mismo
+[21:27:37] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  stevencastro123 : a
+[21:27:40] [ForkJoinPool.commonPool-worker-16/INFO]: (G) ADMIN  AL5PT : para llegar al spawn
+[21:27:59] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  stevencastro123 : bro escribir /spawn te cuesta jaja
+[21:28:06] [ForkJoinPool.commonPool-worker-16/INFO]: (G) ADMIN  AL5PT : no hay /spawn
+[21:28:11] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  stevencastro123 : si ay
+[21:28:19] [Server thread/INFO]: AL5PT issued server command: //set 0
+[21:28:19] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  Pilaw : si pero no funciona
+[21:28:26] [ForkJoinPool.commonPool-worker-16/INFO]: (G) ADMIN  AL5PT : en este server no
+[21:28:26] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  stevencastro123 : a
+[21:28:54] [ForkJoinPool.commonPool-worker-16/INFO]: (G) ADMIN  AL5PT : esto del anti xray es raro pero sirve
+[21:29:04] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  stevencastro123 : quitalo plis
+[21:29:21] [ForkJoinPool.commonPool-worker-16/INFO]: (G) ADMIN  AL5PT : fua altos tuneles de xray hay
+[21:29:22] [Server thread/INFO]: Pilaw issued server command: /home base
+[21:29:23] [Server thread/INFO]: AL5PT issued server command: /gamemode spectator
+[21:29:23] [Server thread/INFO]: [AL5PT: Set own game mode to Spectator Mode]
+[21:29:25] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  stevencastro123 : xd
+[21:29:39] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  stevencastro123 : a
+[21:29:41] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  stevencastro123 : AA
+[21:29:46] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  stevencastro123 : AAA
+[21:30:19] [Server thread/INFO]: ImNottVanxxz7 issued server command: /HOME
+[21:30:22] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[21:30:25] [Server thread/INFO]: AL5PT lost connection: Timed out
+[21:30:25] [Server thread/INFO]: [voicechat] Disconnecting client AL5PT
+[21:30:25] [Server thread/INFO]: (-) ADMIN  AL5PT 
+[21:30:30] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg Pilaw mira que consegui
+[21:30:49] [User Authenticator #9/INFO]: UUID of player AL5PT is 3678aaa4-193c-3005-aadb-5e617b75fe27
+[21:30:50] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  ImNottVanxxz7 : ahora no tengo nada de xp
+[21:30:51] [Server thread/INFO]: (+) ADMIN  AL5PT 
+[21:30:51] [Server thread/INFO]: AL5PT[/127.125.143.250:51087] logged in with entity id 79832 at ([world]28.642306211576585, 66.03053871088775, -44.953682345825335)
+[21:30:51] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  ImNottVanxxz7 : XD
+[21:30:58] [Server thread/INFO]: AL5PT issued server command: /login
+[21:30:58] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user AL5PT has successfully logged in.
+[21:31:06] [Server thread/INFO]: AL5PT issued server command: /gamemode adventure
+[21:31:06] [Server thread/INFO]: [AL5PT: Set own game mode to Adventure Mode]
+[21:31:08] [Server thread/INFO]: AL5PT issued server command: /gamemode creative
+[21:31:08] [Server thread/INFO]: [AL5PT: Set own game mode to Creative Mode]
+[21:31:13] [ForkJoinPool.commonPool-worker-17/INFO]: (G) ADMIN  AL5PT : alto lag bldo
+[21:31:25] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : SI
+[21:31:37] [ForkJoinPool.commonPool-worker-17/INFO]: (G) ADMIN  AL5PT : 1828ms
+[21:32:09] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : blo AL5PT
+[21:32:12] [ForkJoinPool.commonPool-worker-17/INFO]: (G) ADMIN  AL5PT : dime
+[21:32:16] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : mira que encontre
+[21:32:18] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : tpa
+[21:32:22] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : asi mi
+[21:32:23] [Server thread/INFO]: AL5PT issued server command: /tp ImNottVanxxz7
+[21:32:34] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : la bliblia
+[21:32:39] [ForkJoinPool.commonPool-worker-17/INFO]: (G) ADMIN  AL5PT : encontraste tambien la espada?
+[21:32:40] [Server thread/INFO]: AL5PT issued server command: /gamemode spectator
+[21:32:40] [Server thread/INFO]: [AL5PT: Set own game mode to Spectator Mode]
+[21:32:42] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : q espada
+[21:32:49] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  stevencastro123 : espada?
+[21:32:50] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : lo encontre serca de la laba
+[21:32:54] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : del nether
+[21:33:01] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : me olvide avisarte
+[21:33:05] [ForkJoinPool.commonPool-worker-17/INFO]: (G) ADMIN  AL5PT : que raro
+[21:33:06] [Server thread/INFO]: AL5PT issued server command: /gamemode creative
+[21:33:06] [Server thread/INFO]: [AL5PT: Set own game mode to Creative Mode]
+[21:33:11] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : blo
+[21:33:15] [ForkJoinPool.commonPool-worker-17/INFO]: (G) ADMIN  AL5PT : pasa que cerca de esta zona me mate y tenia una espada
+[21:33:17] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : q bacan
+[21:34:01] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  Pilaw : anticristo
+[21:34:11] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : me das el libro XD
+[21:34:17] [ForkJoinPool.commonPool-worker-17/INFO]: (G) ADMIN  AL5PT : lo quemo
+[21:34:19] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : no lo termine de leer
+[21:34:23] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : poq :c
+[21:34:34] [ForkJoinPool.commonPool-worker-17/INFO]: (G) ADMIN  AL5PT : anticristo dice
+[21:34:40] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : Mano eso parecia una gallina
+[21:34:47] [ForkJoinPool.commonPool-worker-17/INFO]: (G) ADMIN  AL5PT : y yo soy un cerdo vestido de jesus
+[21:34:53] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  Pilaw : jajaja
+[21:35:01] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : eres tecnoblade
+[21:35:30] [Server thread/INFO]: Pilaw issued server command: /home 131
+[21:35:33] [ForkJoinPool.commonPool-worker-17/INFO]: (G) ADMIN  AL5PT : igual yo la usaba antes de que falleciera
+[21:35:36] [Server thread/INFO]: Pilaw issued server command: /home 131
+[21:35:51] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  Pilaw : AL5PT tepeate a mi
+[21:35:53] [Server thread/INFO]: AL5PT issued server command: /gamemode spectator
+[21:35:53] [Server thread/INFO]: [AL5PT: Set own game mode to Spectator Mode]
+[21:36:08] [Server thread/INFO]: AL5PT issued server command: /tp Pilaw
+[21:36:12] [Server thread/INFO]: AL5PT issued server command: /gamemode creative
+[21:36:12] [Server thread/INFO]: [AL5PT: Set own game mode to Creative Mode]
+[21:36:23] [ForkJoinPool.commonPool-worker-17/INFO]: (G) ADMIN  AL5PT : aparecio
+[21:36:29] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  Pilaw : lag
+[21:36:40] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  Pilaw : veni aca
+[21:36:48] [User Authenticator #10/INFO]: UUID of player LG_IDKXXX is 145e842e-a948-31ca-8aa5-7c9f0d5e4b8d
+[21:36:49] [Server thread/INFO]: (+)  LG_IDKXXX 
+[21:36:49] [Server thread/INFO]: LG_IDKXXX[/127.199.79.240:50901] logged in with entity id 83186 at ([world]81.10297945554285, 63.0, 603.5779074818525)
+[21:36:49] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  Pilaw : lo la termine todavia
+[21:36:51] [ForkJoinPool.commonPool-worker-16/INFO]: (G) ADMIN  AL5PT : pero deberia ser mas bajo
+[21:36:54] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  Pilaw : ya se
+[21:36:54] [Server thread/INFO]: LG_IDKXXX issued server command: /login
+[21:36:55] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user LG_IDKXXX has successfully logged in.
+[21:37:00] [Server thread/INFO]: LG_IDKXXX issued server command: /login
+[21:37:01] [Server thread/INFO]: AL5PT issued server command: /gamemode survival
+[21:37:01] [Server thread/INFO]: [AL5PT: Set own game mode to Survival Mode]
+[21:37:09] [Server thread/INFO]: AL5PT issued server command: /gamemode creative
+[21:37:09] [Server thread/INFO]: [AL5PT: Set own game mode to Creative Mode]
+[21:37:13] [Server thread/INFO]: AL5PT issued server command: /gamemode survival
+[21:37:13] [Server thread/INFO]: [AL5PT: Set own game mode to Survival Mode]
+[21:37:17] [Server thread/INFO]: AL5PT issued server command: /gamemode creative
+[21:37:17] [Server thread/INFO]: [AL5PT: Set own game mode to Creative Mode]
+[21:37:30] [ForkJoinPool.commonPool-worker-17/INFO]: (G) ADMIN  AL5PT : ta bueno
+[21:37:40] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  stevencastro123 : creo que encontre una base
+[21:37:49] [Server thread/INFO]: LG_IDKXXX lost connection: Disconnected
+[21:37:49] [Server thread/INFO]: [voicechat] Disconnecting client LG_IDKXXX
+[21:37:49] [Server thread/INFO]: (-)  LG_IDKXXX 
+[21:37:54] [Server thread/INFO]: AL5PT issued server command: /tp stevencastro123
+[21:37:59] [Server thread/INFO]: Pilaw issued server command: /home base
+[21:38:04] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  stevencastro123 : bruh
+[21:38:12] [ForkJoinPool.commonPool-worker-16/INFO]: (G)  stevencastro123 : le di la vuelta al mundo creow
+[21:38:39] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[21:39:16] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  stevencastro123 : mielda
+[21:40:01] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  stevencastro123 : subete AL5PT
+[21:40:12] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  stevencastro123 : vas a jugar survival conmigo
+[21:40:23] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  stevencastro123 : ven
+[21:40:27] [Server thread/INFO]: Pilaw issued server command: /home base
+[21:40:34] [Server thread/INFO]: Pilaw issued server command: /home base
+[21:40:35] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  stevencastro123 : aca xd
+[21:40:37] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  stevencastro123 : en el agua
+[21:40:57] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  stevencastro123 : objetivo: portal arruinado
+[21:41:21] [ForkJoinPool.commonPool-worker-17/INFO]: (G) ADMIN  AL5PT : yo mientras voy a seguir buscando que mejorar
+[21:41:26] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  stevencastro123 : ok
+[21:41:33] [Server thread/INFO]: 🌵 ImNottVanxxz7 hugged a cactus
+[21:41:36] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : bro
+[21:41:37] [Server thread/INFO]: ImNottVanxxz7 issued server command: /spawn
+[21:41:38] [Server thread/INFO]: ImNottVanxxz7 issued server command: /spawn
+[21:41:39] [Server thread/INFO]: ImNottVanxxz7 issued server command: /huskhomes:back
+[21:41:39] [Server thread/INFO]: ImNottVanxxz7 issued server command: /huskhomes:back
+[21:41:40] [Server thread/INFO]: ImNottVanxxz7 issued server command: /huskhomes:back
+[21:41:43] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  Pilaw : jajajjajajaja
+[21:41:45] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  stevencastro123 : gg
+[21:41:51] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  Pilaw : volve
+[21:41:51] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : mi xp XD
+[21:41:54] [Server thread/INFO]: ImNottVanxxz7 issued server command: /home
+[21:41:56] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : tmr
+[21:42:01] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  Pilaw : ahh es vrd jajaj
+[21:42:01] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  ImNottVanxxz7 : tenia 20 XD
+[21:42:03] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  Pilaw : perdon
+[21:42:11] [ForkJoinPool.commonPool-worker-17/INFO]: (G)  Pilaw : pero al menos funciona
+[21:43:12] [ForkJoinPool.commonPool-worker-18/INFO]: (G)  stevencastro123 : no ay oro
+[21:43:19] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg Pilaw asemos un granja de xp?
+[21:43:39] [Server thread/INFO]: Pilaw issued server command: /r hay que encontrar un spawner
+[21:43:40] [Server thread/INFO]: ImNottVanxxz7 issued server command: /msg Pilaw aca adentro subteraneo supongo XD
+[21:43:44] [ForkJoinPool.commonPool-worker-18/INFO]: (G)  ImNottVanxxz7 : AAA
+[21:44:21] [ForkJoinPool.commonPool-worker-18/INFO]: (G)  ImNottVanxxz7 : habra que buscar
+[21:46:05] [Server thread/INFO]: ImNottVanxxz7 issued server command: /seed
+[21:47:14] [Server thread/INFO]: Pilaw issued server command: /rtp
+[21:47:36] [ForkJoinPool.commonPool-worker-20/INFO]: (G) ADMIN  AL5PT : hay que poner esto mas interesante
+[21:47:46] [ForkJoinPool.commonPool-worker-20/INFO]: (G)  stevencastro123 : vanessa
+[21:47:51] [ForkJoinPool.commonPool-worker-20/INFO]: (G)  stevencastro123 : me robaste el barco
+[21:48:01] [Server thread/INFO]: AL5PT issued server command: /tp stevencastro123

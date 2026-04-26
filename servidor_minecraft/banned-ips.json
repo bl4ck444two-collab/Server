@@ -1,0 +1,16 @@
+[
+  {
+    "ip": "127.202.181.225",
+    "created": "2026-04-25 21:40:51 +0000",
+    "source": "AL5PT",
+    "expires": "forever",
+    "reason": "spam"
+  },
+  {
+    "ip": "127.167.52.167",
+    "created": "2026-04-25 21:34:23 +0000",
+    "source": "AL5PT",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

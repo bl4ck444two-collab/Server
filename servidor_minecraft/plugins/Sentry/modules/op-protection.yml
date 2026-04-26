@@ -1,0 +1,32 @@
+#     _____            __
+#    / ___/___  ____  / /________  __
+#    \__ \/ _ \/ __ \/ __/ ___/ / / /
+#   ___/ /  __/ / / / /_/ /  / /_/ /
+#  /____/\___/_/ /_/\__/_/   \__, /
+#                           /____/
+#
+# DOCUMENTATION: https://squareplugins.gitbook.io/sentry
+# DISCORD SUPPORT: https://discord.gg/7cFjDnSpEs - CHECK THE DOCUMENTATION BEFORE ASKING FOR HELP!
+#
+# GO GET SENTRY PRIME NOW: https://ko-fi.com/drawned
+# MORE INFO ABOUT SENTRY PRIME: https://squareplugins.gitbook.io/sentry/prime
+
+# Enable this module? true / false
+module-enabled: false
+
+# If true, auto removes OP if the person is not allowed to have it.
+auto-remove-op: true
+
+# What to do when Sentry finds someone getting OP without permission?
+on-detect:
+  execute-command: '' # Leave "" to disable
+  kick: '&cAsk the server admins to allow you having OP through Sentry.' # Leave "" to disable
+  notify-admins: true # Default: true
+
+# Here you can set a new password to use in the command "/sentry op <nick> <password>".
+# Sentry resets the password every new plugin update for safety.
+op-password: '|AF0kYg{71'
+
+# Here you can list any player that has the permission to have OP, like the server owners and admins.
+# Entering a player name doens't mean he will have OP, it just means he is allowed to have OP when someone gives him it.
+allowed-op-users: AL5PT

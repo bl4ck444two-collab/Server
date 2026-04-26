@@ -1,0 +1,32 @@
+#     _____            __
+#    / ___/___  ____  / /________  __
+#    \__ \/ _ \/ __ \/ __/ ___/ / / /
+#   ___/ /  __/ / / / /_/ /  / /_/ /
+#  /____/\___/_/ /_/\__/_/   \__, /
+#                           /____/
+#
+# DOCUMENTATION: https://squareplugins.gitbook.io/sentry
+# DISCORD SUPPORT: https://discord.gg/7cFjDnSpEs - CHECK THE DOCUMENTATION BEFORE ASKING FOR HELP!
+#
+# GO GET SENTRY PRIME NOW: https://ko-fi.com/drawned
+# MORE INFO ABOUT SENTRY PRIME: https://squareplugins.gitbook.io/sentry/prime
+
+# Enable this module? true / false
+# Anti VPN will not work if you are running the server via LAN.
+module-enabled: false
+
+# If true, players with sentry.bypass.antivpn will not be checked by Sentry.
+permission-bypass: true
+
+# List of VPN detection services you can choose to use.
+services:
+  vpnapi-io:
+    api-key: "" # Get a key here: https://vpnapi.io/login
+
+on-detect:
+  execute-command: "" # Leave "" to disable
+  kick: "&5&lSentry\n&cYou are not allowed to join with a VPN connection on this server!" # Leave "" to disable
+  notify-admins: true
+
+# Also block proxies? Default: true
+block-proxy: true
